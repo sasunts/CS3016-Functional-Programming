@@ -31,6 +31,8 @@ data Expr
 
 -- Implement:
 ins :: Ord k => k -> d -> Tree k d -> Tree k d
+ins k d Nil = Leaf k d
+
 ins _ _ _  = error "ins NYI"
 
 -- Part 2 : Tree Lookup -------------------------------

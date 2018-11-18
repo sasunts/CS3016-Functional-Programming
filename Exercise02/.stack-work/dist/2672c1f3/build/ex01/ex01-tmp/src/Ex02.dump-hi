@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-15 19:38:42.1961173 UTC
+2018-11-18 19:42:26.076263 UTC
 
 interface main@main:Ex02 7103
-  interface hash: 6146799051d679253c14d3254db43764
-  ABI hash: 25956570afbf2cdce6b2176ee56bb3ba
+  interface hash: 1b3821c6be2f37b5d8779e25d78dd304
+  ABI hash: 2699b3fb6f1484363e88d8901e1abebe
   export-list hash: 64ef7a536300036c55e05e3b582b917d
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: eeb004d47c1353ca3d212a7149444212
@@ -269,18 +269,20 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
   data Tree k d
     = Br (Ex02.Tree k d) (Ex02.Tree k d) k d | Leaf k d | Nil
     Promotable
-d8f010b6b3bd63668315257c29a7c567
+a68f54892c36f975c130647ceda63e45
   ins ::
     GHC.Classes.Ord k => k -> d -> Ex02.Tree k d -> Ex02.Tree k d
-  {- Arity: 4, Strictness: <B,A><B,A><B,A><B,A>b,
-     Unfolding: InlineRule (4, True, True)
+  {- Arity: 4, Strictness: <L,A><L,U><L,U><S,1*U>m2,
+     Unfolding: InlineRule (4, True, False)
                 (\ @ k
                    @ d
                    $dOrd :: GHC.Classes.Ord k
-                   ds :: k
-                   ds1 :: d
-                   ds2 :: Ex02.Tree k d ->
-                 Ex02.ins1 @ k @ d) -}
+                   k1 :: k
+                   d1 :: d
+                   ds :: Ex02.Tree k d ->
+                 case ds of wild {
+                   DEFAULT -> Ex02.ins1 @ k @ d
+                   Ex02.Nil -> Ex02.Leaf @ k @ d k1 d1 }) -}
 f7b24b8ab6dd95caa040e1776b68ce33
   ins1 :: Ex02.Tree k d
   {- Strictness: b -}
