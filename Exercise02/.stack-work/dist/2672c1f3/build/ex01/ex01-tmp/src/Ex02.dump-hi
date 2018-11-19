@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-18 19:42:26.076263 UTC
+2018-11-19 11:05:08.9125795 UTC
 
 interface main@main:Ex02 7103
-  interface hash: 1b3821c6be2f37b5d8779e25d78dd304
-  ABI hash: 2699b3fb6f1484363e88d8901e1abebe
+  interface hash: f69a6648b92c311fb5711414400aff2d
+  ABI hash: a72f2a37cf3d77b752502683b29f0ca8
   export-list hash: 64ef7a536300036c55e05e3b582b917d
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: eeb004d47c1353ca3d212a7149444212
@@ -269,23 +269,11 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
   data Tree k d
     = Br (Ex02.Tree k d) (Ex02.Tree k d) k d | Leaf k d | Nil
     Promotable
-a68f54892c36f975c130647ceda63e45
+56ba49f50c568f9704485fa3115873fa
   ins ::
     GHC.Classes.Ord k => k -> d -> Ex02.Tree k d -> Ex02.Tree k d
-  {- Arity: 4, Strictness: <L,A><L,U><L,U><S,1*U>m2,
-     Unfolding: InlineRule (4, True, False)
-                (\ @ k
-                   @ d
-                   $dOrd :: GHC.Classes.Ord k
-                   k1 :: k
-                   d1 :: d
-                   ds :: Ex02.Tree k d ->
-                 case ds of wild {
-                   DEFAULT -> Ex02.ins1 @ k @ d
-                   Ex02.Nil -> Ex02.Leaf @ k @ d k1 d1 }) -}
-f7b24b8ab6dd95caa040e1776b68ce33
-  ins1 :: Ex02.Tree k d
-  {- Strictness: b -}
+  {- Arity: 4,
+     Strictness: <L,U(U(C(C1(U)),A),A,C(C1(U)),A,C(C1(U)),A,A,A)><L,U><L,U><S,1*U> -}
 af0a8686b398409b68f1cb7b28d3f6d7
   lkp ::
     (GHC.Base.Monad m, GHC.Classes.Ord k) => Ex02.Tree k d -> k -> m d

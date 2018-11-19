@@ -33,7 +33,16 @@ data Expr
 ins :: Ord k => k -> d -> Tree k d -> Tree k d
 ins k d Nil = Leaf k d
 
-ins _ _ _  = error "ins NYI"
+ins k1 d1 (Leaf k2 d2)
+  |k1 == k2 = Leaf k1 d1
+  |k1 < k2  = Br (Leaf k1 d1) Nil k2 d2
+  |k1 > k2  = Br Nil (Leaf k1 d1) k2 d2
+
+ins k1 d1 (Br l r k2 d2)
+  |k1 == k2 = Br l r k1 d1
+  |k1 < k2  = Br (ins k1 d1 l) r k2 d2
+  |k1 > k2  = Br l (ins k1 d1 r) k2 d2 
+
 
 -- Part 2 : Tree Lookup -------------------------------
 
