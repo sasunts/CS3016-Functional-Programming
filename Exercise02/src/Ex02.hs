@@ -78,4 +78,4 @@ instance Num Expr where
   negate e = error "negate not yet defined for Expr"
   abs e = error "abs not yet defined for Expr"
   signum e = error "signum not yet defined for Expr"
-  fromInteger i = error "fromInteger not yet defined for Expr"
+  fromInteger i = (Val (fromIntegral i))
