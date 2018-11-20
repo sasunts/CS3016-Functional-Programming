@@ -41,14 +41,23 @@ ins k1 d1 (Leaf k2 d2)
 ins k1 d1 (Br l r k2 d2)
   |k1 == k2 = Br l r k1 d1
   |k1 < k2  = Br (ins k1 d1 l) r k2 d2
-  |k1 > k2  = Br l (ins k1 d1 r) k2 d2 
+  |k1 > k2  = Br l (ins k1 d1 r) k2 d2
 
 
 -- Part 2 : Tree Lookup -------------------------------
 
 -- Implement:
 lkp :: (Monad m, Ord k) => Tree k d -> k -> m d
-lkp _ _ = error "lkp NYI"
+lkp Nil _ = fail "Nothing"
+
+lkp (Leaf k d) key
+  |key == k  = return d
+  |otherwise = fail "Wrong key"
+
+lkp (Br l r k d) key
+  |key == k = return d
+  |key < k  = lkp l key
+  |key > k  = lkp r key
 
 -- Part 3 : Instance of Num for Expr
 
