@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-22 15:16:11.8039993 UTC
+2018-11-22 15:29:35.7981167 UTC
 
 interface main@main:Ex02 7103
-  interface hash: 0f927c497113a7d5bb5fe191fcb4007b
-  ABI hash: 34937e4fd9bd0f0fe2f720b1c35a1d70
+  interface hash: 678f93c39982a8b408d966de92df6b16
+  ABI hash: 463d8f297a523cad9b8b8f468666fc49
   export-list hash: 64ef7a536300036c55e05e3b582b917d
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: fbe72dce7169ea56d81ede094b67e0dc
@@ -30,13 +30,13 @@ import  -/  base-4.8.2.0:GHC.Real 1281efa9baf803bc7859d7efb89a38b3
 import  -/  base-4.8.2.0:GHC.Show 0e1d8380a8fb0cfb07ebeda3b70cbf38
 import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
 import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
   $fEqExpr :: GHC.Classes.Eq Ex02.Expr
   DFunId[0]
   {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
      Unfolding: DFun:.
                   @ Ex02.Expr Ex02.$fEqExpr_$c== Ex02.$fEqExpr_$c/= -}
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
   $fEqExpr_$c/= :: Ex02.Expr -> Ex02.Expr -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
      Unfolding: InlineRule (2, True, False)
@@ -44,7 +44,7 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
                  case Ex02.$fEqExpr_$c== a b of wild {
                    GHC.Types.False -> GHC.Types.True
                    GHC.Types.True -> GHC.Types.False }) -}
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
   $fEqExpr_$c== :: Ex02.Expr -> Ex02.Expr -> GHC.Types.Bool
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U> -}
 05269e67d72d2ff0f40a86cb9c404c0c
@@ -84,7 +84,7 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
     Ex02.Tree k d -> Ex02.Tree k d -> GHC.Types.Bool
   {- Arity: 4, HasNoCafRefs,
      Strictness: <L,U(C(C1(U)),A)><L,U(C(C1(U)),A)><S,1*U><S,1*U> -}
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
   $fNumExpr :: GHC.Num.Num Ex02.Expr
   DFunId[0]
   {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -94,17 +94,17 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
                   Ex02.$fNumExpr_$c-
                   Ex02.$fNumExpr_$c*
                   Ex02.$fNumExpr_$cnegate
-                  Ex02.Abs
+                  Ex02.$fNumExpr_$cabs
                   Ex02.Sign
                   Ex02.$fNumExpr_$cfromInteger -}
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
   $fNumExpr1 :: Ex02.Expr
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (Ex02.Val Ex02.$fNumExpr2) -}
 374e9f874d3d868f69fe2b62e6cd9beb
   $fNumExpr2 :: GHC.Types.Double
   {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.D# 0.0) -}
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
   $fNumExpr_$c* :: Ex02.Expr -> Ex02.Expr -> Ex02.Expr
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>,
      Unfolding: (\ e1 :: Ex02.Expr e2 :: Ex02.Expr ->
@@ -114,7 +114,7 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
                    -> case e2 of wild1 {
                         DEFAULT -> Ex02.Mul wild wild1
                         Ex02.Val e5 -> Ex02.Val (GHC.Float.timesDouble e4 e5) } }) -}
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
   $fNumExpr_$c+ :: Ex02.Expr -> Ex02.Expr -> Ex02.Expr
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>,
      Unfolding: (\ e1 :: Ex02.Expr e2 :: Ex02.Expr ->
@@ -124,7 +124,7 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
                    -> case e2 of wild1 {
                         DEFAULT -> Ex02.Add wild wild1
                         Ex02.Val e5 -> Ex02.Val (GHC.Float.plusDouble e4 e5) } }) -}
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
   $fNumExpr_$c- :: Ex02.Expr -> Ex02.Expr -> Ex02.Expr
   {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><L,U>,
      Unfolding: (\ e1 :: Ex02.Expr e2 :: Ex02.Expr ->
@@ -134,13 +134,27 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
                    -> case e2 of wild1 {
                         DEFAULT -> Ex02.Sub wild wild1
                         Ex02.Val e5 -> Ex02.Val (GHC.Float.minusDouble e4 e5) } }) -}
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
+  $fNumExpr_$cabs :: Ex02.Expr -> Ex02.Expr
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: (\ e :: Ex02.Expr ->
+                 case e of wild {
+                   DEFAULT -> Ex02.Abs wild
+                   Ex02.Val e1
+                   -> case e1 of wild1 { GHC.Types.D# x ->
+                      case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.>=## x 0.0) of wild2 {
+                        GHC.Types.False
+                        -> Ex02.Val (GHC.Types.D# (GHC.Prim.negateDouble# x))
+                        GHC.Types.True -> wild } } }) -}
+be4185adb84396656cac0941e7e1a3c9
   $fNumExpr_$cfromInteger :: GHC.Integer.Type.Integer -> Ex02.Expr
   {- Arity: 1, HasNoCafRefs, Strictness: <L,1*U>m1,
      Unfolding: InlineRule (1, True, False)
                 (\ i :: GHC.Integer.Type.Integer ->
                  Ex02.Val (GHC.Float.$fNumDouble_$cfromInteger i)) -}
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
   $fNumExpr_$cnegate :: Ex02.Expr -> Ex02.Expr
   {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
      Unfolding: InlineRule (1, True, False)
@@ -148,7 +162,7 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
                  case e of wild {
                    DEFAULT -> Ex02.Sub Ex02.$fNumExpr1 wild
                    Ex02.Val e1 -> Ex02.Val (GHC.Float.negateDouble e1) }) -}
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
   $fShowExpr :: GHC.Show.Show Ex02.Expr
   DFunId[0]
   {- Strictness: m, Inline: [ALWAYS] CONLIKE,
@@ -157,11 +171,11 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
                   Ex02.$fShowExpr_$cshowsPrec
                   Ex02.$fShowExpr_$cshow
                   Ex02.$fShowExpr_$cshowList -}
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
   $fShowExpr1 :: Ex02.Expr -> GHC.Show.ShowS
   {- Arity: 1,
      Unfolding: (\ w :: Ex02.Expr -> Ex02.$w$cshowsPrec 0 w) -}
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
   $fShowExpr_$cshow :: Ex02.Expr -> GHC.Base.String
   {- Arity: 1, Strictness: <S,1*U>,
      Unfolding: InlineRule (1, True, False)
@@ -170,11 +184,11 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
                    GHC.Show.shows18
                    x
                    (GHC.Types.[] @ GHC.Types.Char)) -}
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
   $fShowExpr_$cshowList :: [Ex02.Expr] -> GHC.Show.ShowS
   {- Arity: 2,
      Unfolding: (GHC.Show.showList__ @ Ex02.Expr Ex02.$fShowExpr1) -}
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
   $fShowExpr_$cshowsPrec ::
     GHC.Types.Int -> Ex02.Expr -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <S,1*U(U)><S,1*U>, Inline: INLINE[0],
@@ -247,10 +261,10 @@ import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
     GHC.Types.Int -> Ex02.Tree k d -> GHC.Show.ShowS
   {- Arity: 4,
      Strictness: <L,U(C(C1(U)),A,A)><L,U(C(C1(U)),A,A)><L,1*U(U)><S,1*U> -}
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
   $w$cshowsPrec :: GHC.Prim.Int# -> Ex02.Expr -> GHC.Show.ShowS
   {- Arity: 2, Strictness: <L,U><S,1*U>, Inline: [0] -}
-74bf045176bc353bd64e2d3ec727752d
+be4185adb84396656cac0941e7e1a3c9
   data Expr
     = Val GHC.Types.Double
     | Var GHC.Base.String

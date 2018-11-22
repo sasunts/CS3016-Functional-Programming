@@ -84,6 +84,8 @@ instance Num Expr where
   negate e = case (e) of
              (Val e) -> Val(-e)
              (_) -> Sub 0 e
-  abs e = Abs e
+  abs e = case (e) of
+          (Val e) -> if e >= 0 then Val(e) else Val(-e)
+          (_) -> Abs e
   signum e = Sign e
   fromInteger i = (Val (fromIntegral i))
