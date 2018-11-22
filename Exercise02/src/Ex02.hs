@@ -72,10 +72,12 @@ lkp (Br l r k d) key
 -}
 
 instance Num Expr where
-  e1 + e2 = error "+ not yet defined for Expr"
-  e1 - e2 = error "- not yet defined for Expr"
-  e1 * e2 = error "* not yet defined for Expr"
-  negate e = error "negate not yet defined for Expr"
-  abs e = error "abs not yet defined for Expr"
-  signum e = error "signum not yet defined for Expr"
+  e1 + e2 = case (e1,e2) of
+            (Val e1, Val e2) -> Val(e1+e2)
+            (_,_) -> Add e1 e2
+  e1 - e2 = Sub e1 e2
+  e1 * e2 = Mul e1 e2
+  negate e = Sub 0 e
+  abs e = Abs e
+  signum e = Sign e
   fromInteger i = (Val (fromIntegral i))

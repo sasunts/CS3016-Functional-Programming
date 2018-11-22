@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-11-20 12:28:57.1355384 UTC
+2018-11-22 15:10:08.2748745 UTC
 
 interface main@main:Main 7103
-  interface hash: b6b17c34156ce8c1da217e509610ee45
-  ABI hash: b52f5ea46143830d795c243a179ee57a
+  interface hash: 997fddd6db4cb0723dff6dc8cc677e16
+  ABI hash: ea8ae9a9addf63206c30a41adfea5ad3
   export-list hash: da4eaaa61b8c140b3d43134c48ca5688
   orphan hash: 9ce556ecbb44a02044369ae98eda36e8
   flag hash: 1f1f1440a12ada2029a46d1638f4ddb2
@@ -68,19 +68,19 @@ import  -/  HUnit-1.3.1.2@HUnit_AzBU5jSVcUy6oxicItOe0b:Test.HUnit.Base 53f2f28a2
 import  -/  base-4.8.2.0:GHC.Base a4939789b2cfd60b36ed163e56a623cd
 import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
 import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
-import  -/  Ex02 4a45ea440a35c819ed14101ff3c55375
+import  -/  Ex02 fa9782a6681067b4d2367aaac3baf184
   exports: 64ef7a536300036c55e05e3b582b917d
-  Abs c093bf4bb1cb802020faba99ed2354f6
-  Add aebab6017be1749d31c129751206ea45
+  Abs 7bbfbdcd48148b62c03798e56c0a40fb
+  Add 3231bad17c5579aa4c83c52a1eec7ddc
   Br 7ec10a5487c2dab0e0fa24ec97cc132c
   IntFun 7768ba338e97c1f58d5a2a6745ba59ee
   Leaf 772339115e0785ec400a6ddfa23aa363
-  Mul 1e44cbc7ec7a3640a4befae5731e92e9
+  Mul ba454f0f97ab8b047981bacbead960d6
   Nil 9593b996f3d653e0a34566bf3a2b629d
-  Sign 4dc10d8dd9e309565dc7fe47689ebf56
-  Sub 20b4f71e786a1113fbd56ad544ef3796
-  Val 32e54211cef10aa046fbc8048dbfa268
-  Var 68708bd186b5ad846b006770b21eaac1
+  Sign 50a16e6d19af84a9b782fd61a41f5197
+  Sub d7ac867fff516bf1b97184505b9efca2
+  Val 03f0b8a9afb343537e39c06b027d998d
+  Var 53a98d1deedc50fe30990ed1aa719579
   ins 56ba49f50c568f9704485fa3115873fa
   lkp c5f562d7391c0116d73565e93dd555c7
 import  -/  test-framework-0.8.1.1@testf_2RKbXiMlif20IWKx4lR7cW:Test.Framework 4f08929b71b5087be67282460e63535b
@@ -2565,19 +2565,19 @@ eac2147c78d3a1e53a1251348dd025e9
   lookupTests99 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    "3 in Leaf 3 300 ([])){3 marks}"#) -}
-b78b68c17a1767d566f96e9ca152c845
+b63c2219e9920e9609df62665457e093
   main :: GHC.Types.IO ()
   {- Arity: 1,
      Unfolding: InlineRule (0, True, True)
                 Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
-915bb02594b506435d4b7709d1211c75
+7ea40879522a9d5e2337706d0b66a6c1
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1,
      Unfolding: (Test.Framework.Runners.Console.defaultMain1
                    Main.tests) -}
-1cbe7c7631af376f2abc46e1ee6dff06
+980698539856032c303a81a88f660b17
   main2 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -2585,83 +2585,66 @@ b78b68c17a1767d566f96e9ca152c845
      Unfolding: (GHC.TopHandler.runMainIO1
                    @ ()
                    Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
-c99a45fa0833dbd57501d5ab4922fea6
+a278b6f173e2acdd623e6b19c612427d
   numTests :: Test.Framework.Core.Test
   {- Strictness: m2,
      Unfolding: (Test.Framework.Core.TestGroup
-                   Main.numTests262
+                   Main.numTests272
                    Main.numTests1) -}
-46e04dfc4e456e609f852e2e44f8c90e
+8db4143ad13d2d6a9952de981a51499a
   numTests1 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests251
+                   Main.numTests263
                    Main.numTests2) -}
-eb4c2687d31c52860b6cfe3233392e0b
+18445b0e706c6054b5fd336619851401
   numTests10 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests163
+                   Main.numTests174
                    Main.numTests11) -}
-7e3443ebcf881b4276526d1609300e40
-  numTests100 ::
-    GHC.Prim.State# GHC.Prim.RealWorld
-    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
-  {- Arity: 1, Strictness: <L,U>,
-     Unfolding: (\ eta2 :: GHC.Prim.State#
-                             GHC.Prim.RealWorld[OneShot] ->
-                 Test.HUnit.Base.@=?7
-                   @ Ex02.Expr
-                   Main.numTests102
-                     `cast`
-                   (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
-                   Ex02.$fEqExpr
-                   Ex02.$fShowExpr
-                   (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests101
-                   Ex02.$fNumExpr3
-                   eta2) -}
-9b50dbe769e5d6f003e828593699614e
-  numTests101 :: Ex02.Expr
-  {- Unfolding: (Ex02.Sub Main.numTests38 Main.v) -}
-ced29403680b6e1b67bacb27a4fc785a
-  numTests102 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests103) -}
-becfdd5a90552156861113e80f551c25
-  numTests103 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+b52ae9720d82d3d8e90dc7e8369fc9b9
+  numTests100 :: Ex02.Expr
+  {- HasNoCafRefs,
+     Unfolding: (Ex02.Sub Ex02.$fNumExpr1 Main.numTests53) -}
+13f1e288e6c5d1570149e7f693dce13e
+  numTests101 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests102) -}
+3eb2a65685b5324f71cd61d4c1a50ae6
+  numTests102 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Test.HUnit.Base.@?=2
-                   Main.numTests104) -}
-b24d7dbeaae841fe2f8af6ef61379883
-  numTests104 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+                   Main.numTests103) -}
+04fd59068794b0fbab2d62495e54a4d3
+  numTests103 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests105
+                   Main.numTests104
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-152f65f76b37db53e9d87ad8e9577276
-  numTests105 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests106)) -}
-9b8ffd37aec81812bb3f1a7f996d6b6b
-  numTests106 :: GHC.SrcLoc.SrcLoc
+6a1cc91cac05592570bbeeb83d749e11
+  numTests104 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests105)) -}
+ea2a6bfcb8cd48dd031ecc8d5221751d
+  numTests105 :: GHC.SrcLoc.SrcLoc
   {- Unfolding: (GHC.SrcLoc.SrcLoc
                    Main.insertTests35
                    Main.insertTests34
                    Main.insertTests33
-                   Main.numTests107
+                   Main.numTests106
                    Main.numTests33
-                   Main.numTests107
+                   Main.numTests106
                    Main.numTests32) -}
-5848bfd8f7689c7cf19afeb1e2f84647
-  numTests107 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 139) -}
-16001a42cf913a424c74da379f9ce941
-  numTests108 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "negate v {3 marks}"#) -}
-f5101bc8350ff58dd72c87b2dc334e6a
-  numTests109 :: Test.Framework.Core.Test
+4bab1388b3a417ae535dd46413b437ea
+  numTests106 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 142) -}
+69c1a33079318e31a567ce9a4683b395
+  numTests107 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "abs (-1) {2 mark}"#) -}
+ff80fb28e6a9cd9d0b9561faac322cdd
+  numTests108 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -2671,73 +2654,79 @@ f5101bc8350ff58dd72c87b2dc334e6a
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests117
-                   Main.numTests110
+                   Main.numTests118
+                   Main.numTests109
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-50bbe0c927946d813a57fd97663add5a
+e921e6b08ad72f744ad9a18f17d61095
+  numTests109 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ eta2 :: GHC.Prim.State#
+                             GHC.Prim.RealWorld[OneShot] ->
+                 Test.HUnit.Base.@=?7
+                   @ Ex02.Expr
+                   Main.numTests112
+                     `cast`
+                   (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
+                   Ex02.$fEqExpr
+                   Ex02.$fShowExpr
+                   (GHC.Types.[] @ GHC.Types.Char)
+                   Main.numTests111
+                   Main.numTests110
+                   eta2) -}
+fc5e841d8325a85271fb614a328ce20e
   numTests11 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests152
+                   Main.numTests162
                    Main.numTests12) -}
-f22fd83ca2955c01d0483c9f65831201
-  numTests110 ::
-    GHC.Prim.State# GHC.Prim.RealWorld
-    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
-  {- Arity: 1, Strictness: <L,U>,
-     Unfolding: (\ eta2 :: GHC.Prim.State#
-                             GHC.Prim.RealWorld[OneShot] ->
-                 Test.HUnit.Base.@=?7
-                   @ Ex02.Expr
-                   Main.numTests111
-                     `cast`
-                   (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
-                   Ex02.$fEqExpr
-                   Ex02.$fShowExpr
-                   (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests61
-                   Ex02.$fNumExpr3
-                   eta2) -}
-d3d0e6961ac3c6bae961bd3a9a86e423
-  numTests111 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests112) -}
-b659e2f0acaa88515ac8957655b7b461
-  numTests112 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
-  {- Unfolding: (GHC.Types.:
-                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Test.HUnit.Base.@?=2
-                   Main.numTests113) -}
-2ec66a78f84e4f7fbf660e71fcd8be75
+54024f9b628d2b75d3cc88a965dd8a40
+  numTests110 :: Ex02.Expr
+  {- Unfolding: (Ex02.Sub Ex02.$fNumExpr1 Main.v) -}
+ed361cb7b35911e62de92b42257944f4
+  numTests111 :: Ex02.Expr
+  {- Unfolding: (Ex02.Sub Main.numTests39 Main.v) -}
+b9b665d44b68ec405836c7a64c2b9ae5
+  numTests112 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests113) -}
+9940848eb05f319155e549ab61ee0643
   numTests113 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests114
+                   Test.HUnit.Base.@?=2
+                   Main.numTests114) -}
+27b6f998576bee05fdbcf7208b79aac2
+  numTests114 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Main.numTests115
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-a80e42a69cf3c2b1d7e8e349ed311ffc
-  numTests114 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests115)) -}
-7230b6cfaedbab2a00a1502817dcbb2d
-  numTests115 :: GHC.SrcLoc.SrcLoc
+710f906de1314991d32b2343358ee242
+  numTests115 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests116)) -}
+a5cd0b018722d18672845345390912ac
+  numTests116 :: GHC.SrcLoc.SrcLoc
   {- Unfolding: (GHC.SrcLoc.SrcLoc
                    Main.insertTests35
                    Main.insertTests34
                    Main.insertTests33
-                   Main.numTests116
+                   Main.numTests117
                    Main.numTests33
-                   Main.numTests116
+                   Main.numTests117
                    Main.numTests32) -}
-bde8669b9fa1722bd7a2b4ae5109047c
-  numTests116 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 137) -}
-adf771ac99853c0d47aab005e3562e3f
-  numTests117 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "negate 1 {3 marks}"#) -}
-2d0419c785ee5d21bcabaf442e47e7e7
-  numTests118 :: Test.Framework.Core.Test
+f485cecdbbb611cf0bc58aca8e2439dc
+  numTests117 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 139) -}
+ea483d21a09d2e9be876b0e2aa02fe5a
+  numTests118 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "negate v {3 marks}"#) -}
+e01620665a723332dc3b2f8ef2651bb2
+  numTests119 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -2747,14 +2736,21 @@ adf771ac99853c0d47aab005e3562e3f
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests129
-                   Main.numTests119
+                   Main.numTests127
+                   Main.numTests120
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-3f3cce16f0cd5211d798937cd07fd8e6
-  numTests119 ::
+ce561c2dc4cebf486a2d07ee71fead86
+  numTests12 :: [Test.Framework.Core.Test]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Framework.Core.Test
+                   Main.numTests152
+                   Main.numTests13) -}
+9ba83de699618a28269c120e22e5626f
+  numTests120 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -2768,68 +2764,45 @@ adf771ac99853c0d47aab005e3562e3f
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests120
-                   Ex02.$fNumExpr4
+                   Main.numTests67
+                   Main.numTests100
                    eta2) -}
-4d4aa9fb570e1baca4224144e35f1606
-  numTests12 :: [Test.Framework.Core.Test]
-  {- Strictness: m2,
-     Unfolding: (GHC.Types.:
-                   @ Test.Framework.Core.Test
-                   Main.numTests142
-                   Main.numTests13) -}
-951bbcba21df56a6832bf6c65a348ba0
-  numTests120 :: Ex02.Expr
-  {- Unfolding: (Ex02.Mul Main.x Main.y) -}
-ae7274295265d83a51d2bdf94339ac98
+46ffcbab6ef1bd68b777cd051e1dbc57
   numTests121 :: GHC.Stack.CallStack
   {- Unfolding: (GHC.Stack.CallStack Main.numTests122) -}
-8ddad5ab6609f47328ae43be34c769c7
+7f51daa1ac62e966420ebccfe2b775f4
   numTests122 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Test.HUnit.Base.@?=2
                    Main.numTests123) -}
-74fa4ec0d10aa01aefcc143fdd54d4ff
+50030f5c2beccd0a3fb32d90e7969195
   numTests123 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Main.numTests124
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-4a7cfe649b3643ae7b0950cdf18d1f1a
+6b08228f9cf175670300f0c4e0b59e2f
   numTests124 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
   {- Unfolding: ((Main.insertTests36, Main.numTests125)) -}
-daa0f1ff69df255b6087eea3e12034bc
+09f8861eda4467b9e8e713c47aee3893
   numTests125 :: GHC.SrcLoc.SrcLoc
   {- Unfolding: (GHC.SrcLoc.SrcLoc
                    Main.insertTests35
                    Main.insertTests34
                    Main.insertTests33
-                   Main.numTests128
-                   Main.numTests127
-                   Main.numTests128
-                   Main.numTests126) -}
-badbf974e9388a73cdc3536d167cfa72
+                   Main.numTests126
+                   Main.numTests33
+                   Main.numTests126
+                   Main.numTests32) -}
+f5ede0ca913b9085b907839811984f68
   numTests126 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 17) -}
-fdd64f3063583fd6d026f4d9f96e5f20
-  numTests127 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 14) -}
-47b620327cbfd8b609a5672d8d73cd3a
-  numTests128 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 134) -}
-51204696f96056fdbf2aed13510bc2f9
-  numTests129 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "x*y {1 mark}"#) -}
-26cbc3f35a4a657ecdaf5df4adc92959
-  numTests13 :: [Test.Framework.Core.Test]
-  {- Strictness: m2,
-     Unfolding: (GHC.Types.:
-                   @ Test.Framework.Core.Test
-                   Main.numTests130
-                   Main.numTests14) -}
-602839598f2fc96fc28bc7b1e5ba5b0e
-  numTests130 :: Test.Framework.Core.Test
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 137) -}
+babb41bbd772e593f33da4cd4da08cdf
+  numTests127 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "negate 1 {3 marks}"#) -}
+f8682770a36a005f6fa31783dec71f58
+  numTests128 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -2839,14 +2812,14 @@ fdd64f3063583fd6d026f4d9f96e5f20
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests141
-                   Main.numTests131
+                   Main.numTests139
+                   Main.numTests129
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-1d88ac42d2e4980fea02630bf174e095
-  numTests131 ::
+2903b69e62d6cb5666f946c61f8f9766
+  numTests129 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -2854,67 +2827,74 @@ fdd64f3063583fd6d026f4d9f96e5f20
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests135
+                   Main.numTests131
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests132
-                   Ex02.$fNumExpr4
+                   Main.numTests130
+                   Main.numTests130
                    eta2) -}
-abc1ec0174dea7a3b1ca8a9dce0c2ff5
-  numTests132 :: Ex02.Expr
-  {- Unfolding: (Ex02.Mul Main.v Main.numTests133) -}
-55d2298e640cb75e0146e87726ccbfb1
-  numTests133 :: Ex02.Expr
-  {- HasNoCafRefs, Unfolding: (Ex02.Val Main.numTests134) -}
-36be7527dc4f84fb286cbdbc70330059
-  numTests134 :: GHC.Types.Double
-  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 2.0) -}
-3a90d339643101bcf79ee4fd4379a6e5
-  numTests135 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests136) -}
-7aa03fc24ad68e8e3db1b42b79fdf240
-  numTests136 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+739151142a3ac72c7429150250f6ef14
+  numTests13 :: [Test.Framework.Core.Test]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Framework.Core.Test
+                   Main.numTests140
+                   Main.numTests14) -}
+37206db91e7f3d53db7d7ec04b9af35e
+  numTests130 :: Ex02.Expr
+  {- Unfolding: (Ex02.Mul Main.x Main.y) -}
+a99124989cea8eba5a4583d7b08d5bc4
+  numTests131 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests132) -}
+2b23d210635b218b813143407409e5a8
+  numTests132 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Test.HUnit.Base.@?=2
-                   Main.numTests137) -}
-c74d5e90a576d789ffbcf29f1bffef7c
-  numTests137 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+                   Main.numTests133) -}
+2f38ce679b49dda23b66c17abb0a28ac
+  numTests133 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests138
+                   Main.numTests134
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-7233cb4b7cc9638d036a233d877fdc4b
-  numTests138 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests139)) -}
-5d3c18ad38e3c17346c6454dc38d766d
-  numTests139 :: GHC.SrcLoc.SrcLoc
+d701bdf5da74e5e4836fe38752be9078
+  numTests134 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests135)) -}
+1a4396c74178662ed16b9cbfc1d128b2
+  numTests135 :: GHC.SrcLoc.SrcLoc
   {- Unfolding: (GHC.SrcLoc.SrcLoc
                    Main.insertTests35
                    Main.insertTests34
                    Main.insertTests33
-                   Main.numTests140
-                   Main.numTests127
-                   Main.numTests140
-                   Main.numTests126) -}
-e6272f95b8b7116285a507df0e780e68
+                   Main.numTests138
+                   Main.numTests137
+                   Main.numTests138
+                   Main.numTests136) -}
+d253ba5c76c21c5e637ca4c092863912
+  numTests136 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 17) -}
+d595fc0cbd090b2ec9d1e85889d85dbe
+  numTests137 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 14) -}
+fd18b45dbc5f750fc99fccccc5987725
+  numTests138 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 134) -}
+a6d043680f2f9a2a6da3abb64d154ea3
+  numTests139 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "x*y {1 mark}"#) -}
+cccc40c08b76bb436a26a3126b3630d9
   numTests14 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests118
+                   Main.numTests128
                    Main.numTests15) -}
-01c1707ab24e9c1d274c6c492715b3a9
-  numTests140 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 132) -}
-10111bce64031ea30cc90eab4d8a281e
-  numTests141 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "v*2 {2 marks}"#) -}
-fcb7fad42d6487c4e14e1a868636a09f
-  numTests142 :: Test.Framework.Core.Test
+a31998f81728f3a04c0aed10202c2eff
+  numTests140 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -2925,13 +2905,13 @@ fcb7fad42d6487c4e14e1a868636a09f
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
                    Main.numTests151
-                   Main.numTests143
+                   Main.numTests141
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-9e456214942173f2a01e1ccc11e0ad95
-  numTests143 ::
+ddd96048cee02b057452fd33f747cd5b
+  numTests141 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -2945,54 +2925,60 @@ fcb7fad42d6487c4e14e1a868636a09f
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests144
-                   Ex02.$fNumExpr4
+                   Main.numTests142
+                   Main.numTests142
                    eta2) -}
-a23f6b52732c50635bcf671f0ee526d1
-  numTests144 :: Ex02.Expr
-  {- Unfolding: (Ex02.Mul Main.numTests133 Main.v) -}
-26537cb81c5148e4f9a838bed04522cc
+6ffd1d91f250c886612425b2ccf48039
+  numTests142 :: Ex02.Expr
+  {- Unfolding: (Ex02.Mul Main.v Main.numTests143) -}
+eebe72b0bfb6f133dbc3de8f841bf8ff
+  numTests143 :: Ex02.Expr
+  {- HasNoCafRefs, Unfolding: (Ex02.Val Main.numTests144) -}
+19c0b2627aa87636e70b3613027fa9a9
+  numTests144 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 2.0) -}
+e95fe2276f9c4a05757145aec4279baf
   numTests145 :: GHC.Stack.CallStack
   {- Unfolding: (GHC.Stack.CallStack Main.numTests146) -}
-67710c30a08581a5700ee06e7acede73
+5229308849749d41c41ca318d7456de3
   numTests146 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Test.HUnit.Base.@?=2
                    Main.numTests147) -}
-6974535c0a321ba7e7f77877d15f27bf
+60bf608e6196c94eb9cd80805726854e
   numTests147 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Main.numTests148
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-ee79f15cb0ec92c1ed278dedb0f3f50e
+27aa9b9b38af20c6fbb68788009cdbdc
   numTests148 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
   {- Unfolding: ((Main.insertTests36, Main.numTests149)) -}
-5c2d5dc219fb54cd61c31e9577e40a18
+b86f1221401c4fb853911c22dc385a91
   numTests149 :: GHC.SrcLoc.SrcLoc
   {- Unfolding: (GHC.SrcLoc.SrcLoc
                    Main.insertTests35
                    Main.insertTests34
                    Main.insertTests33
                    Main.numTests150
-                   Main.numTests127
+                   Main.numTests137
                    Main.numTests150
-                   Main.numTests126) -}
-791a90193b050ec87c30eb52941a4aaf
+                   Main.numTests136) -}
+6b811367c61c30e9bc576f0e2234a59f
   numTests15 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests109
+                   Main.numTests119
                    Main.numTests16) -}
-6e4796ddfe93291157fbeb634e8d6f30
+74b9b128b05f776645b589f029535f6d
   numTests150 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 130) -}
-4e1a3cc4e10d6ef051d429486bb918d5
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 132) -}
+52cede9d1b5490bb78572fd21531c591
   numTests151 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "2*v {2 marks}"#) -}
-a5bdcf145daad0aa60a6c3d4fe33ad95
+  {- Unfolding: (GHC.CString.unpackCString# "v*2 {2 marks}"#) -}
+e8cae42c20baf05edee4b12d7c1e1b86
   numTests152 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
@@ -3003,13 +2989,13 @@ a5bdcf145daad0aa60a6c3d4fe33ad95
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests162
+                   Main.numTests161
                    Main.numTests153
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-bc83038cf7f07f5fdf7d85903dfebe44
+b909bb3aabcf8640a2d686f6290d7ded
   numTests153 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -3018,64 +3004,61 @@ bc83038cf7f07f5fdf7d85903dfebe44
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests156
+                   Main.numTests155
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
                    Main.numTests154
-                   Ex02.$fNumExpr4
+                   Main.numTests154
                    eta2) -}
-280fcd1b9a7a5be5cd92c4c85dcdf1c2
+1a7706f84e8a56d1fb73f3969202c5f0
   numTests154 :: Ex02.Expr
-  {- HasNoCafRefs, Unfolding: (Ex02.Val Main.numTests155) -}
-a507ca10d7b306b9a7861748e063fc10
-  numTests155 :: GHC.Types.Double
-  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 4.0) -}
-f8f1a20aecb33118fbf5587c7530e5a3
-  numTests156 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests157) -}
-33be39a6c411705e8c4bbfb8aabdffd0
-  numTests157 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (Ex02.Mul Main.numTests143 Main.v) -}
+b459526ff061070803e40759a32cf955
+  numTests155 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests156) -}
+9051a301f5917acc0e1e81d2da78d320
+  numTests156 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Test.HUnit.Base.@?=2
-                   Main.numTests158) -}
-3a5b3321b9fa3d8d48ec15cf7165b8b9
-  numTests158 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+                   Main.numTests157) -}
+7515a1b2ee438e1a78ea0d526cf4fe1e
+  numTests157 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests159
+                   Main.numTests158
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-b46a3edfdcd00427043bc37adc7ca3cc
-  numTests159 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests160)) -}
-fd427e9173e8f3382f589387d57f6654
-  numTests16 :: [Test.Framework.Core.Test]
-  {- Strictness: m2,
-     Unfolding: (GHC.Types.:
-                   @ Test.Framework.Core.Test
-                   Main.numTests99
-                   Main.numTests17) -}
-03df98d8b349cadd11d75db5a9b9dbb0
-  numTests160 :: GHC.SrcLoc.SrcLoc
+32926c554d0756b049a1a4938136163b
+  numTests158 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests159)) -}
+efda71b06abd2d4a2faf99e724a2a2a2
+  numTests159 :: GHC.SrcLoc.SrcLoc
   {- Unfolding: (GHC.SrcLoc.SrcLoc
                    Main.insertTests35
                    Main.insertTests34
                    Main.insertTests33
-                   Main.numTests161
-                   Main.numTests127
-                   Main.numTests161
-                   Main.numTests126) -}
-42bcec76068dbe7e6e07e77493974831
-  numTests161 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 128) -}
-c4b787c7b68e4a1636e09c88e803ae86
-  numTests162 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "2*2 {1 mark}"#) -}
-137d01183606a6c7d56278c66e28f6ed
-  numTests163 :: Test.Framework.Core.Test
+                   Main.numTests160
+                   Main.numTests137
+                   Main.numTests160
+                   Main.numTests136) -}
+acf77f0610c5fc188b390dea167b25ac
+  numTests16 :: [Test.Framework.Core.Test]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Framework.Core.Test
+                   Main.numTests108
+                   Main.numTests17) -}
+61b015d5d7ddaa10d9473a37db49e103
+  numTests160 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 130) -}
+a879bbcfcdd6f32cc37d514b2aa49502
+  numTests161 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "2*v {2 marks}"#) -}
+af5a3be9688599ef3d090fe9157304e7
+  numTests162 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -3085,14 +3068,14 @@ c4b787c7b68e4a1636e09c88e803ae86
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests172
-                   Main.numTests164
+                   Main.numTests173
+                   Main.numTests163
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-c54e53005e3c9215ac9ee2a52bfd0384
-  numTests164 ::
+ae2ba3db744931bb5519dda43303f3bf
+  numTests163 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -3100,61 +3083,68 @@ c54e53005e3c9215ac9ee2a52bfd0384
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests166
+                   Main.numTests167
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
                    Main.numTests165
-                   Ex02.$fNumExpr5
+                   Main.numTests164
                    eta2) -}
-dfbc4fcdd0cd4ac142f4565a4ae43d26
+4a2ab6ad2bbdcaa14b8cf3efd3674dee
+  numTests164 :: Ex02.Expr
+  {- HasNoCafRefs,
+     Unfolding: (Ex02.Mul Main.numTests143 Main.numTests143) -}
+f52be9db1dbe11035bb7531c042c2cb8
   numTests165 :: Ex02.Expr
-  {- Unfolding: (Ex02.Sub Main.x Main.y) -}
-ebf51e03a242f33f55776435e3023181
-  numTests166 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests167) -}
-67e3fc1251f1eee2ee7a619fd01d7959
-  numTests167 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
-  {- Unfolding: (GHC.Types.:
-                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Test.HUnit.Base.@?=2
-                   Main.numTests168) -}
-2233e4c9075bedb76890b7921a7c9af2
+  {- HasNoCafRefs, Unfolding: (Ex02.Val Main.numTests166) -}
+1d80485939a591aac4ad0db48b2e73dc
+  numTests166 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 4.0) -}
+eb2960e7a2ac950975f406e9cb1095a1
+  numTests167 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests168) -}
+f86c051f4a4a831b7c70d59f4d8c1329
   numTests168 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests169
+                   Test.HUnit.Base.@?=2
+                   Main.numTests169) -}
+dbeaf6baf55900b96440f2e0ccd552fa
+  numTests169 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Main.numTests170
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-219c372eb93f8105f00a720606471789
-  numTests169 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests170)) -}
-9441fcd37a9aeb7761ab1561ea9d4436
+a1e33eef5f31b97128a1fb07cf64a3e8
   numTests17 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests90
+                   Main.numTests97
                    Main.numTests18) -}
-1722b11b709355900110c50fc13dfbf3
-  numTests170 :: GHC.SrcLoc.SrcLoc
+0783e6f8968f6e4606982a48e35722c2
+  numTests170 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests171)) -}
+6e9cd5272379009c04e97f0aa0910320
+  numTests171 :: GHC.SrcLoc.SrcLoc
   {- Unfolding: (GHC.SrcLoc.SrcLoc
                    Main.insertTests35
                    Main.insertTests34
                    Main.insertTests33
-                   Main.numTests171
-                   Main.numTests127
-                   Main.numTests171
-                   Main.numTests126) -}
-77659a70a8751b4c00c71a846fc5d181
-  numTests171 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 124) -}
-ed81a6abf17758bd4a441d40c9947f52
-  numTests172 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "x-y {1 mark}"#) -}
-97f03e3431814fa8cd526329834f4adf
-  numTests173 :: Test.Framework.Core.Test
+                   Main.numTests172
+                   Main.numTests137
+                   Main.numTests172
+                   Main.numTests136) -}
+b117f92d0759c739166e3774784c7218
+  numTests172 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 128) -}
+3e3d9b456cc65e4219208970a3160490
+  numTests173 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "2*2 {1 mark}"#) -}
+31e89aa342029cf1fda504ab55ce41cb
+  numTests174 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -3164,14 +3154,14 @@ ed81a6abf17758bd4a441d40c9947f52
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests182
-                   Main.numTests174
+                   Main.numTests183
+                   Main.numTests175
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-92ae495cf21f6c54bb5576e26720463d
-  numTests174 ::
+4bb0e936883eb9d6315ffcd126184e99
+  numTests175 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -3179,61 +3169,61 @@ ed81a6abf17758bd4a441d40c9947f52
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests176
+                   Main.numTests177
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests175
-                   Ex02.$fNumExpr5
+                   Main.numTests176
+                   Main.numTests176
                    eta2) -}
-22dc90e339adf2d884a592c689728b04
-  numTests175 :: Ex02.Expr
-  {- Unfolding: (Ex02.Sub Main.v Main.numTests49) -}
-5c565211a9ae1b2ceeeb0a6aa8edb084
-  numTests176 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests177) -}
-6faf152e3730c93076e61bd85e0fe859
-  numTests177 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
-  {- Unfolding: (GHC.Types.:
-                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Test.HUnit.Base.@?=2
-                   Main.numTests178) -}
-7450581318f1d0dc210322e0108729a3
+20c4636b4e7b1d155bfd28ddee49603a
+  numTests176 :: Ex02.Expr
+  {- Unfolding: (Ex02.Sub Main.x Main.y) -}
+df35a439911ca4a81e919d77a4cbbb5e
+  numTests177 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests178) -}
+ce270c74e2162d534ecabcdf9a3e5e1b
   numTests178 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests179
+                   Test.HUnit.Base.@?=2
+                   Main.numTests179) -}
+72c07dbf6b58249a24254989c6f10e25
+  numTests179 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Main.numTests180
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-f4635bb71ce4bfa54ee3ac5e8a65370f
-  numTests179 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests180)) -}
-2eb2fc01a8568e12e7c22126da27b8df
+49bdd45802e396055f9cb2886c01bbff
   numTests18 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests81
+                   Main.numTests87
                    Main.numTests19) -}
-44819752ebba404868d6179b60bdeeb9
-  numTests180 :: GHC.SrcLoc.SrcLoc
+8485eb0eed7e0708919463d855da0929
+  numTests180 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests181)) -}
+433641fe49ce32eb21b24306a4be2e5e
+  numTests181 :: GHC.SrcLoc.SrcLoc
   {- Unfolding: (GHC.SrcLoc.SrcLoc
                    Main.insertTests35
                    Main.insertTests34
                    Main.insertTests33
-                   Main.numTests181
-                   Main.numTests127
-                   Main.numTests181
-                   Main.numTests126) -}
-03147a7404ac211f1e304fba5b149b38
-  numTests181 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 122) -}
-8b33e81993a3705c2b3590d25fc12784
-  numTests182 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "v-1 {2 marks}"#) -}
-9d4aac9d96bfe40ae523a62435bb89ce
-  numTests183 :: Test.Framework.Core.Test
+                   Main.numTests182
+                   Main.numTests137
+                   Main.numTests182
+                   Main.numTests136) -}
+93b7f3bb81f62bfc08af4f2744c880a9
+  numTests182 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 124) -}
+cec8b7fabc59a525c7efe92a5e9e8aa2
+  numTests183 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "x-y {1 mark}"#) -}
+d32d7f8c3ddcb8097a6827007195b087
+  numTests184 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -3243,14 +3233,14 @@ f4635bb71ce4bfa54ee3ac5e8a65370f
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests192
-                   Main.numTests184
+                   Main.numTests193
+                   Main.numTests185
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-a1dead228fff6b5caebf791d90db1490
-  numTests184 ::
+b02ed782ccd885243b9cf08d7d331478
+  numTests185 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -3258,61 +3248,61 @@ a1dead228fff6b5caebf791d90db1490
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests186
+                   Main.numTests187
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests185
-                   Ex02.$fNumExpr5
+                   Main.numTests186
+                   Main.numTests186
                    eta2) -}
-b6654958ed066bb4cd02854a71be6a03
-  numTests185 :: Ex02.Expr
-  {- Unfolding: (Ex02.Sub Main.numTests133 Main.v) -}
-76669ed65ced77b7876a22a07cfc93f3
-  numTests186 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests187) -}
-f1c32f218df2a06017f4e5a3f4441a5b
-  numTests187 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
-  {- Unfolding: (GHC.Types.:
-                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Test.HUnit.Base.@?=2
-                   Main.numTests188) -}
-65735df4616987cc33f473e40e3f3bc0
+d3b161d5236b8a98d9b27659c3a0fe43
+  numTests186 :: Ex02.Expr
+  {- Unfolding: (Ex02.Sub Main.v Main.numTests53) -}
+695d221be67e2cdc80e98a8327d43d1c
+  numTests187 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests188) -}
+cd113ad03482d54789e236f09c46e9f1
   numTests188 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests189
+                   Test.HUnit.Base.@?=2
+                   Main.numTests189) -}
+21682a0423af9aa6e564468cbe749a92
+  numTests189 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Main.numTests190
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-fe5581ec94e0c442e3f035e85d83e7d5
-  numTests189 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests190)) -}
-dac34e997e74d6be154f69ead84600be
+7cee764cbb341e8387b4d04dd1118fc9
   numTests19 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests70
+                   Main.numTests76
                    Main.numTests20) -}
-b48ff30310d2eaffa5db93c9eba61b52
-  numTests190 :: GHC.SrcLoc.SrcLoc
+eb0805337f8cd44f8c071e3630b470b1
+  numTests190 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests191)) -}
+9512f09ee2d2309a35c4534a0f2d161f
+  numTests191 :: GHC.SrcLoc.SrcLoc
   {- Unfolding: (GHC.SrcLoc.SrcLoc
                    Main.insertTests35
                    Main.insertTests34
                    Main.insertTests33
-                   Main.numTests191
-                   Main.numTests127
-                   Main.numTests191
-                   Main.numTests126) -}
-4125aa8451114e3ab5f45d92523caeff
-  numTests191 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 120) -}
-f8f4ece8acd9f99613e3f0438d02a4a5
-  numTests192 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "2-v {2 marks}"#) -}
-2ac985be930a16cd75d0af443f0be4a3
-  numTests193 :: Test.Framework.Core.Test
+                   Main.numTests192
+                   Main.numTests137
+                   Main.numTests192
+                   Main.numTests136) -}
+63ee6f51d92ff70f531852cb64a30d4f
+  numTests192 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 122) -}
+e10a09e13028b5ca071f3f13add71b16
+  numTests193 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "v-1 {2 marks}"#) -}
+4f37843da9cce42088f1dcdc162ff516
+  numTests194 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -3322,14 +3312,14 @@ f8f4ece8acd9f99613e3f0438d02a4a5
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests201
-                   Main.numTests194
+                   Main.numTests203
+                   Main.numTests195
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-035065ad46a543c17f8f54b08c07e9fa
-  numTests194 ::
+f4342a483f0d8e15d2f564692bed2f06
+  numTests195 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -3337,65 +3327,68 @@ f8f4ece8acd9f99613e3f0438d02a4a5
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests195
+                   Main.numTests197
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests49
-                   Ex02.$fNumExpr5
+                   Main.numTests196
+                   Main.numTests196
                    eta2) -}
-e5bdc4f261c769b25ebea65293e8d0a2
-  numTests195 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests196) -}
-111bd75dd830d68672321fe957f1a86f
-  numTests196 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+858c58c091e599444da6a6825206f880
+  numTests196 :: Ex02.Expr
+  {- Unfolding: (Ex02.Sub Main.numTests143 Main.v) -}
+284baf0d3257dddede8fe4014dee13c3
+  numTests197 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests198) -}
+b8d69489f7c194146aa5565aeeb84a63
+  numTests198 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Test.HUnit.Base.@?=2
-                   Main.numTests197) -}
-e01399cec04e29a661741003162c903b
-  numTests197 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+                   Main.numTests199) -}
+47dbf39b57ed03fff3f5e9904521913d
+  numTests199 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests198
+                   Main.numTests200
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-bb5c42763be6e50fa2a2b26f1eacccca
-  numTests198 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests199)) -}
-1a7fb49fb9f93815595294b5a043daca
-  numTests199 :: GHC.SrcLoc.SrcLoc
-  {- Unfolding: (GHC.SrcLoc.SrcLoc
-                   Main.insertTests35
-                   Main.insertTests34
-                   Main.insertTests33
-                   Main.numTests200
-                   Main.numTests127
-                   Main.numTests200
-                   Main.numTests126) -}
-0ce3d5d39a2774e8bcad70ef570581d7
+00aa5a822e916d4539ffa3aee5361f73
   numTests2 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests241
+                   Main.numTests253
                    Main.numTests3) -}
-6b3b66d2b7d675aa63c29399323bd703
+31e4a59d1c4ff3c5cdebdc833f7cd2a9
   numTests20 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests59
+                   Main.numTests63
                    Main.numTests21) -}
-7aac1a292e50bfceaff9292daf6a5ba1
-  numTests200 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 118) -}
-53e63f07896d36938673c1dc44c6fa42
-  numTests201 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "2-1 {1 mark}"#) -}
-7e92257a27a4f4663657efda64a11a6c
-  numTests202 :: Test.Framework.Core.Test
+ef74e5d8a5a5757cab0e288cf284f1fe
+  numTests200 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests201)) -}
+d5299b29529fe572abf29296adfdf4d3
+  numTests201 :: GHC.SrcLoc.SrcLoc
+  {- Unfolding: (GHC.SrcLoc.SrcLoc
+                   Main.insertTests35
+                   Main.insertTests34
+                   Main.insertTests33
+                   Main.numTests202
+                   Main.numTests137
+                   Main.numTests202
+                   Main.numTests136) -}
+fe408ceef5859a6cb48b6cfdc583346d
+  numTests202 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 120) -}
+5e02ca2354737510aff2113f849bec74
+  numTests203 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "2-v {2 marks}"#) -}
+13c5dd090572d234675d15d8057e6649
+  numTests204 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -3405,14 +3398,14 @@ bb5c42763be6e50fa2a2b26f1eacccca
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests211
-                   Main.numTests203
+                   Main.numTests213
+                   Main.numTests205
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-00c5bcb5396992f39261c2b52ae1d868
-  numTests203 ::
+5f68bdc427f266522aa9a71e65339736
+  numTests205 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -3420,61 +3413,62 @@ bb5c42763be6e50fa2a2b26f1eacccca
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests205
+                   Main.numTests207
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests204
-                   Ex02.$fNumExpr6
+                   Main.numTests53
+                   Main.numTests206
                    eta2) -}
-564285761d73dee9f56ee35b7a3093bc
-  numTests204 :: Ex02.Expr
-  {- Unfolding: (Ex02.Add Main.x Main.y) -}
-ccebf720882131b40e3e2d839e4a9f9b
-  numTests205 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests206) -}
-e987e0a9202f0370fded6a32dccfae81
-  numTests206 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+55bbcac2c49e6be1d4465f091df63cb2
+  numTests206 :: Ex02.Expr
+  {- HasNoCafRefs,
+     Unfolding: (Ex02.Sub Main.numTests143 Main.numTests53) -}
+2e63f2da79d3c0ffb1bb047a18a4b7d2
+  numTests207 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests208) -}
+f43cb3cc6f662064eb4f249afe9c90c0
+  numTests208 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Test.HUnit.Base.@?=2
-                   Main.numTests207) -}
-29715c10a45aea596f5d4abe29c6c44e
-  numTests207 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+                   Main.numTests209) -}
+e9dd91e6e0ecef01dc47a1cd276da17f
+  numTests209 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests208
+                   Main.numTests210
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-1bc601f547fbdd2ac3d6212905528b97
-  numTests208 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests209)) -}
-fad4858b3cc4ce7e7b9103870131a94c
-  numTests209 :: GHC.SrcLoc.SrcLoc
-  {- Unfolding: (GHC.SrcLoc.SrcLoc
-                   Main.insertTests35
-                   Main.insertTests34
-                   Main.insertTests33
-                   Main.numTests210
-                   Main.numTests127
-                   Main.numTests210
-                   Main.numTests126) -}
-ac2f018ff0469625c3e57879499f0318
+9ecfbcbf4e88c78d021bc29eb219d90a
   numTests21 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests47
+                   Main.numTests48
                    Main.numTests22) -}
-620d2ec7ec716d6bf3627263320b9b97
-  numTests210 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 115) -}
-87e217c7321b845fd8e350dc1feac337
-  numTests211 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "x+y {1 mark}"#) -}
-818e9517fa196d4b39807ef7cb966e90
-  numTests212 :: Test.Framework.Core.Test
+e9547cee6e04d4055d446f0395205319
+  numTests210 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests211)) -}
+137d234086872aa478ea59b62107f93b
+  numTests211 :: GHC.SrcLoc.SrcLoc
+  {- Unfolding: (GHC.SrcLoc.SrcLoc
+                   Main.insertTests35
+                   Main.insertTests34
+                   Main.insertTests33
+                   Main.numTests212
+                   Main.numTests137
+                   Main.numTests212
+                   Main.numTests136) -}
+1c2d800be819baa9eaee66800f78b720
+  numTests212 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 118) -}
+9aa653215f0f82f6ffbeee39a7ecedc7
+  numTests213 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "2-1 {1 mark}"#) -}
+9c34c81e7ffc1f53fa5595b83b0eca45
+  numTests214 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -3484,14 +3478,14 @@ ac2f018ff0469625c3e57879499f0318
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests221
-                   Main.numTests213
+                   Main.numTests223
+                   Main.numTests215
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-4d1d0e9b8b63017ef14530a1712d6a86
-  numTests213 ::
+1583a6a42c529e28699d7c7d084729ce
+  numTests215 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -3499,61 +3493,61 @@ ac2f018ff0469625c3e57879499f0318
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests215
+                   Main.numTests217
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests214
-                   Ex02.$fNumExpr6
+                   Main.numTests216
+                   Main.numTests216
                    eta2) -}
-a248e4be453559f8370aea73519ab24e
-  numTests214 :: Ex02.Expr
-  {- Unfolding: (Ex02.Add Main.v Main.numTests49) -}
-9033ea62f961b34c98c15a0dd6bd391f
-  numTests215 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests216) -}
-5642f6ff332d53d7749331b2c64590c4
-  numTests216 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+e498865c1421f203879cba1ff525614a
+  numTests216 :: Ex02.Expr
+  {- Unfolding: (Ex02.Add Main.x Main.y) -}
+0d4e220be4b9c8e9762e0c31b3af3738
+  numTests217 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests218) -}
+ae34a4a89f264099a55de2553dfa7837
+  numTests218 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Test.HUnit.Base.@?=2
-                   Main.numTests217) -}
-788573e1bcaa135fa6a350c2c48b6498
-  numTests217 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+                   Main.numTests219) -}
+a22c7a989daf97365d4d7eecf6f1d4eb
+  numTests219 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests218
+                   Main.numTests220
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-c9ad1e1e745b07d0e09b6f63e2a987d4
-  numTests218 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests219)) -}
-a637f0fde4c560a82988af0a4eb50f46
-  numTests219 :: GHC.SrcLoc.SrcLoc
-  {- Unfolding: (GHC.SrcLoc.SrcLoc
-                   Main.insertTests35
-                   Main.insertTests34
-                   Main.insertTests33
-                   Main.numTests220
-                   Main.numTests127
-                   Main.numTests220
-                   Main.numTests126) -}
-e9c3ba2f29b6e2a78fa389984227f872
+4a01c366e27e6ac5a10fd1fd0d4e8554
   numTests22 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
                    Main.numTests36
                    Main.numTests23) -}
-0811c2ee9f7a6448859761144ec3c188
-  numTests220 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 113) -}
-d8ac495103a3bd2a204d76689212c708
-  numTests221 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "v+1 {2 marks}"#) -}
-b52f75382f2b4c141070fe94c0327ebd
-  numTests222 :: Test.Framework.Core.Test
+a7d9b0f1933f8fb5e5854586309950d3
+  numTests220 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests221)) -}
+0ba77fc37409a2656adcf6160b554547
+  numTests221 :: GHC.SrcLoc.SrcLoc
+  {- Unfolding: (GHC.SrcLoc.SrcLoc
+                   Main.insertTests35
+                   Main.insertTests34
+                   Main.insertTests33
+                   Main.numTests222
+                   Main.numTests137
+                   Main.numTests222
+                   Main.numTests136) -}
+d81b4b91cc16e41cda8f601173e05063
+  numTests222 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 115) -}
+7ab442aef514ef39e82930d9e8a05750
+  numTests223 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "x+y {1 mark}"#) -}
+66b35a7f9bba9d9582331ccf92918273
+  numTests224 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -3563,14 +3557,14 @@ b52f75382f2b4c141070fe94c0327ebd
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests231
-                   Main.numTests223
+                   Main.numTests233
+                   Main.numTests225
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-cde9778c28c22d6dbfb49e7d101bb27d
-  numTests223 ::
+39788fa702f7d37c201bbe94a0c6ee08
+  numTests225 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -3578,61 +3572,61 @@ cde9778c28c22d6dbfb49e7d101bb27d
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests225
+                   Main.numTests227
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests224
-                   Ex02.$fNumExpr6
+                   Main.numTests226
+                   Main.numTests226
                    eta2) -}
-900ed9d2adae8a63dc57f0a3b8855d5c
-  numTests224 :: Ex02.Expr
-  {- Unfolding: (Ex02.Add Main.numTests49 Main.v) -}
-bda362f9997b9d10564b81c570b7edac
-  numTests225 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests226) -}
-5df052b40be3913c532f481679d66c7c
-  numTests226 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+df535d97efc8be6f0825dcbd472b5858
+  numTests226 :: Ex02.Expr
+  {- Unfolding: (Ex02.Add Main.v Main.numTests53) -}
+d0e1a7cb6c87a82ad7ec632ae9a7ee49
+  numTests227 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests228) -}
+ace297b13260a329f32343dfb9cf919f
+  numTests228 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Test.HUnit.Base.@?=2
-                   Main.numTests227) -}
-f0fa8fcf597a41b659015259416ca34f
-  numTests227 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+                   Main.numTests229) -}
+85c48760a21ce35f50034a1960174f7b
+  numTests229 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests228
+                   Main.numTests230
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-0eba1a9062591b0545727aac32b51ecc
-  numTests228 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests229)) -}
-9ce4ec8f3f87e65bb28be6eefd732122
-  numTests229 :: GHC.SrcLoc.SrcLoc
-  {- Unfolding: (GHC.SrcLoc.SrcLoc
-                   Main.insertTests35
-                   Main.insertTests34
-                   Main.insertTests33
-                   Main.numTests230
-                   Main.numTests127
-                   Main.numTests230
-                   Main.numTests126) -}
-8d120914e511d933dce975ec351105a0
+f70ba020b508bbaabb3fa765bf543bea
   numTests23 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
                    Main.numTests24
                    (GHC.Types.[] @ Test.Framework.Core.Test)) -}
-007a9d47f7c93b40fafe104157161d57
-  numTests230 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 111) -}
-7b966bbeae0e241c06ace8d86e8e4391
-  numTests231 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "1+v {2 marks}"#) -}
-731e332525d8ce40997408c313165d43
-  numTests232 :: Test.Framework.Core.Test
+b71c0e82da8d326a0ba7a5943132c99c
+  numTests230 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests231)) -}
+eeb571de7ea76dd48ca2769e4e266aea
+  numTests231 :: GHC.SrcLoc.SrcLoc
+  {- Unfolding: (GHC.SrcLoc.SrcLoc
+                   Main.insertTests35
+                   Main.insertTests34
+                   Main.insertTests33
+                   Main.numTests232
+                   Main.numTests137
+                   Main.numTests232
+                   Main.numTests136) -}
+cc37db493ab18b24264dbec4e7e6eaf6
+  numTests232 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 113) -}
+3b1df2a0615f440c665476606dfacd7f
+  numTests233 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "v+1 {2 marks}"#) -}
+bcdcc618573a22dfa440d8616c971d31
+  numTests234 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -3642,14 +3636,14 @@ f0fa8fcf597a41b659015259416ca34f
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests240
-                   Main.numTests233
+                   Main.numTests243
+                   Main.numTests235
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-c1728427fbe0761d63ea13cb719001f4
-  numTests233 ::
+9ca9ac392f6b0ca564cc6d57238db714
+  numTests235 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -3657,47 +3651,34 @@ c1728427fbe0761d63ea13cb719001f4
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests234
+                   Main.numTests237
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests133
-                   Ex02.$fNumExpr6
+                   Main.numTests236
+                   Main.numTests236
                    eta2) -}
-80daf9d000017dda5b7b2cb0436026e1
-  numTests234 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests235) -}
-6dc243002ee9ce37756789198f65cd93
-  numTests235 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+1717090c30e395dba720ac47f3a3df5f
+  numTests236 :: Ex02.Expr
+  {- Unfolding: (Ex02.Add Main.numTests53 Main.v) -}
+b8cde6917748423abed6a0187c8dad09
+  numTests237 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests238) -}
+ff90e0f08d14e60f4904a20fc6f15dad
+  numTests238 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Test.HUnit.Base.@?=2
-                   Main.numTests236) -}
-b2af2d2df0423e255c0d0591f236c1f1
-  numTests236 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+                   Main.numTests239) -}
+95ed295d8ef73ce73b5c7cf9f0497b26
+  numTests239 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests237
+                   Main.numTests240
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-3b41b22290fd2ade42387dfa43b67d4b
-  numTests237 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests238)) -}
-861cc7cbbda1677ca9b451996b5fd1b5
-  numTests238 :: GHC.SrcLoc.SrcLoc
-  {- Unfolding: (GHC.SrcLoc.SrcLoc
-                   Main.insertTests35
-                   Main.insertTests34
-                   Main.insertTests33
-                   Main.numTests239
-                   Main.numTests127
-                   Main.numTests239
-                   Main.numTests126) -}
-4dbcb0c4dffb57fd0d3eebbe1af689a9
-  numTests239 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 109) -}
-8d64c1c322c868f5111c36c352d6ce46
+c37b7ebb0c6b88a08fb7d4eeeeccf062
   numTests24 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
@@ -3714,11 +3695,27 @@ b2af2d2df0423e255c0d0591f236c1f1
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-84df249476daf0f09b8b856070790ea4
-  numTests240 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "1+1 {1 mark}"#) -}
-a182c55cfb78ea95e6e0ed55a9d170d6
-  numTests241 :: Test.Framework.Core.Test
+a14d8f3e3053694e589b4ac50d83ebb2
+  numTests240 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests241)) -}
+a5fb96a5e8628332bd741028086e40ab
+  numTests241 :: GHC.SrcLoc.SrcLoc
+  {- Unfolding: (GHC.SrcLoc.SrcLoc
+                   Main.insertTests35
+                   Main.insertTests34
+                   Main.insertTests33
+                   Main.numTests242
+                   Main.numTests137
+                   Main.numTests242
+                   Main.numTests136) -}
+640c44aa3b3cdc3dc639ce86991209bd
+  numTests242 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 111) -}
+5bb8960a749c0b050c1035f891af9a00
+  numTests243 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "1+v {2 marks}"#) -}
+7c031e0e6ff1f18f002e1566907b1911
+  numTests244 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -3728,14 +3725,14 @@ a182c55cfb78ea95e6e0ed55a9d170d6
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests250
-                   Main.numTests242
+                   Main.numTests252
+                   Main.numTests245
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-22a27e4b6d5b9d6a329322831196d87b
-  numTests242 ::
+4306f27ca27ec4d6afab5f4dfe9fe7c0
+  numTests245 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -3743,50 +3740,34 @@ a182c55cfb78ea95e6e0ed55a9d170d6
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests243
+                   Main.numTests246
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests38
-                   Main.numTests38
+                   Main.numTests143
+                   Main.numTests143
                    eta2) -}
-9475c23167c51932d8020f002364dfb9
-  numTests243 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests244) -}
-516712bba016cdbd05e72d34f6e3717e
-  numTests244 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+4d70ba6696bb5b67366a038f3ac48541
+  numTests246 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests247) -}
+c59cfbaf25c54f6416724f1bd381e1a2
+  numTests247 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Test.HUnit.Base.@?=2
-                   Main.numTests245) -}
-e8a4499f55b4b8bdc7d444499c313e97
-  numTests245 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+                   Main.numTests248) -}
+d4965053dedd9d43f197ce257b094822
+  numTests248 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests246
+                   Main.numTests249
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-7cee63b1d94f77b65f62883bc00f6a70
-  numTests246 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests247)) -}
-91e8b319e57d960fb8923da7148fb0b3
-  numTests247 :: GHC.SrcLoc.SrcLoc
-  {- Unfolding: (GHC.SrcLoc.SrcLoc
-                   Main.insertTests35
-                   Main.insertTests34
-                   Main.insertTests33
-                   Main.numTests249
-                   Main.insertTests79
-                   Main.numTests249
-                   Main.numTests248) -}
-6ae78005296310ebcfc9a17bcd276d61
-  numTests248 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 15) -}
-c4b68fe5c69764f596046ababdf5f77c
-  numTests249 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 106) -}
-6581c2d0205f966a866239b60add0b2d
+563aef3bcf110f53dfa892a201e4a1bc
+  numTests249 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests250)) -}
+37a6b31e38828a4154583f120bde36d2
   numTests25 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -3802,13 +3783,26 @@ c4b68fe5c69764f596046ababdf5f77c
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
                    Main.numTests26
-                   Ex02.$fNumExpr1
+                   Main.numTests26
                    eta2) -}
-3d2937c6dded7e180378c1491dfb0f03
-  numTests250 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "0  {2 marks}"#) -}
-424f9669457e78a311a7d4df9cc714f9
-  numTests251 :: Test.Framework.Core.Test
+e101841c94aa9fb00aee4fdce2261a77
+  numTests250 :: GHC.SrcLoc.SrcLoc
+  {- Unfolding: (GHC.SrcLoc.SrcLoc
+                   Main.insertTests35
+                   Main.insertTests34
+                   Main.insertTests33
+                   Main.numTests251
+                   Main.numTests137
+                   Main.numTests251
+                   Main.numTests136) -}
+cf9d967aeba053263aa4bd28f567e08a
+  numTests251 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 109) -}
+f567bd2e715433ec5dad310bdbf45125
+  numTests252 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "1+1 {1 mark}"#) -}
+29ca31314c4111ceadee74a41f5f311e
+  numTests253 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -3818,14 +3812,14 @@ c4b68fe5c69764f596046ababdf5f77c
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests261
-                   Main.numTests252
+                   Main.numTests262
+                   Main.numTests254
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-4ebddad34a77f131b210500eef48e867
-  numTests252 ::
+9c0e9180eb60423f76ec3b35e541615b
+  numTests254 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -3839,61 +3833,127 @@ c4b68fe5c69764f596046ababdf5f77c
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests253
-                   Main.numTests253
+                   Main.numTests39
+                   Main.numTests39
                    eta2) -}
-dad9ab343b5e1839bef7ed37561ddf81
-  numTests253 :: Ex02.Expr
-  {- HasNoCafRefs, Unfolding: (Ex02.Val Main.numTests254) -}
-f739b3a4c766fabc3618fe1f7e649703
-  numTests254 :: GHC.Types.Double
-  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 42.0) -}
-96860060778aba000bda6f0e7bc28c1d
+f9d04c978234d2fa8784adc51165c775
   numTests255 :: GHC.Stack.CallStack
   {- Unfolding: (GHC.Stack.CallStack Main.numTests256) -}
-c28a68730617a8177ff5e2d45ee479ef
+5ea1cf96cf231ee718eff3441cc67d2d
   numTests256 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Test.HUnit.Base.@?=2
                    Main.numTests257) -}
-ae2ec36644589336fcbb0840ab029de7
+b012307633605986c2fe2f599cdfaab5
   numTests257 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Main.numTests258
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-07eae9268875f0b3bda65908dea3383e
+40ba16601822a737cace5ba55be12762
   numTests258 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
   {- Unfolding: ((Main.insertTests36, Main.numTests259)) -}
-9066f192464f88c61df8dc5168860477
+69411e3874d4a0c7c04d9abcb950e7ec
   numTests259 :: GHC.SrcLoc.SrcLoc
   {- Unfolding: (GHC.SrcLoc.SrcLoc
                    Main.insertTests35
                    Main.insertTests34
                    Main.insertTests33
-                   Main.numTests260
-                   Main.insertTests142
-                   Main.numTests260
-                   Main.lookupTests97) -}
-52833115a28986b6043c8e2f7c591fe3
+                   Main.numTests261
+                   Main.insertTests79
+                   Main.numTests261
+                   Main.numTests260) -}
+4816acf7ff7094a61f2c70a48485a742
   numTests26 :: Ex02.Expr
   {- Unfolding: (Ex02.Sign Main.v) -}
-c0ccaeffaa8f537e6c011c6fa8bcfc77
+22bd47a77968f09f280c4217c535e25e
   numTests260 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 104) -}
-897d3e9f9243cff832fb704e9f48ebd4
-  numTests261 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString#
-                   "fromInteger 42 {2 marks}"#) -}
-4e6dbf3aedc964bf8a0eae7b6fd59ba7
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 15) -}
+9236df378369ec9fcb2919f7e03e2cc8
+  numTests261 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 106) -}
+4600ef7f7459777c745ae226a1d337c9
   numTests262 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString#
-                   "\n\
-                   \Part 3 - Number instances (40 marks)\n"#) -}
+  {- Unfolding: (GHC.CString.unpackCString# "0  {2 marks}"#) -}
+eeeba05599ab54bdeee014c6c26c6f42
+  numTests263 :: Test.Framework.Core.Test
+  {- Unfolding: (Test.Framework.Core.Test
+                   @ Test.Framework.Providers.HUnit.TestCaseRunning
+                   @ Test.Framework.Providers.HUnit.TestCaseResult
+                   @ Test.Framework.Providers.HUnit.TestCase
+                   Test.Framework.Providers.HUnit.$fTestlikeTestCaseRunningTestCaseResultTestCase
+                   Test.Framework.Providers.HUnit.testCase1
+                     `cast`
+                   (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
+                             <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
+                   Main.numTests271
+                   Main.numTests264
+                     `cast`
+                   (Trans
+                        (Sym (GHC.Types.NTCo:IO[0] <()>_R))
+                        (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
+59066002e96f1cd915e1285cf6fdc0e9
+  numTests264 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ eta2 :: GHC.Prim.State#
+                             GHC.Prim.RealWorld[OneShot] ->
+                 Test.HUnit.Base.@=?7
+                   @ Ex02.Expr
+                   Main.numTests265
+                     `cast`
+                   (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
+                   Ex02.$fEqExpr
+                   Ex02.$fShowExpr
+                   (GHC.Types.[] @ GHC.Types.Char)
+                   Main.numTests51
+                   Main.numTests51
+                   eta2) -}
+00b352c5dde1f361217d25e04cf0da08
+  numTests265 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests266) -}
+3d10f96b502f02d5e87dfc82bce78027
+  numTests266 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Test.HUnit.Base.@?=2
+                   Main.numTests267) -}
+4178f70216b16e694c29b15f35381080
+  numTests267 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Main.numTests268
+                   (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
+72976d993f1c4db7da5b365ae3764238
+  numTests268 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests269)) -}
+4e46be5bb408d1d28dc4126fdc52aa1d
+  numTests269 :: GHC.SrcLoc.SrcLoc
+  {- Unfolding: (GHC.SrcLoc.SrcLoc
+                   Main.insertTests35
+                   Main.insertTests34
+                   Main.insertTests33
+                   Main.numTests270
+                   Main.insertTests142
+                   Main.numTests270
+                   Main.lookupTests97) -}
 c1a293bf5cd2d479ef757d3383cbabca
   numTests27 :: GHC.Stack.CallStack
   {- Unfolding: (GHC.Stack.CallStack Main.numTests28) -}
+e73ad25fdbc8a687ad9faebb56190239
+  numTests270 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 104) -}
+7553ab9c17882173d39620c54b5745ae
+  numTests271 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "fromInteger 42 {2 marks}"#) -}
+dc83375085d5469a4d82e0a55738f14a
+  numTests272 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "\n\
+                   \Part 3 - Number instances (40 marks)\n"#) -}
 fe23ff6462c7cabbacf12c15258af2f2
   numTests28 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
@@ -3906,12 +3966,12 @@ fe23ff6462c7cabbacf12c15258af2f2
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Main.numTests30
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-27877c1cfaff8e471c88b39fd0ae05de
+e4dd73add1b7172d3e88d54e39d84ea0
   numTests3 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests232
+                   Main.numTests244
                    Main.numTests4) -}
 baa72ecb3bf1cd1e3de114438e609b27
   numTests30 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
@@ -3938,7 +3998,7 @@ b41fab05a8553b6c29e4edb638da6ab4
 1b26952bf7f8eab781fa0aef523b2c3e
   numTests35 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "signum v {2 mark}"#) -}
-dde295fb005d0d2072bdc5252e7e866a
+6a19426834a51a2d63adc03c5d30c8ca
   numTests36 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
@@ -3949,13 +4009,13 @@ dde295fb005d0d2072bdc5252e7e866a
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests46
+                   Main.numTests47
                    Main.numTests37
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-7249b08febdbf938f7bc56e64f0219a3
+a30d03768545e40bb213bfb55f6510d7
   numTests37 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
@@ -3964,64 +4024,67 @@ dde295fb005d0d2072bdc5252e7e866a
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests40
+                   Main.numTests41
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
+                   Main.numTests39
                    Main.numTests38
-                   Ex02.$fNumExpr1
                    eta2) -}
-b55d4fdfddc281b5cef18ba3d92adf0f
+61ebb4119ddff6f50d61e4b552d2fb19
   numTests38 :: Ex02.Expr
-  {- HasNoCafRefs, Unfolding: (Ex02.Val Main.numTests39) -}
-dea7bc12821aadd6655e3958f759c0f9
-  numTests39 :: GHC.Types.Double
-  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 0.0) -}
-72caf776f6ce859a95daa0acfda32d8b
+  {- HasNoCafRefs, Unfolding: (Ex02.Sign Main.numTests39) -}
+5af339873ff3a86fa8529f65f01718e0
+  numTests39 :: Ex02.Expr
+  {- HasNoCafRefs, Unfolding: (Ex02.Val Main.numTests40) -}
+23b2603d20ac540d486f4427c6b703f6
   numTests4 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests222
+                   Main.numTests234
                    Main.numTests5) -}
-116cb1ca9c88b6c638810d811bc83780
-  numTests40 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests41) -}
-c439703255f609d06db52cf5711183f8
-  numTests41 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
-  {- Unfolding: (GHC.Types.:
-                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Test.HUnit.Base.@?=2
-                   Main.numTests42) -}
-695eecbd5fffa624d6b19cdb51edfa38
+ca9d2a7b449a8f669ae99f2b15463e7d
+  numTests40 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 0.0) -}
+66510d72d2190ee1ae5fc56849860afd
+  numTests41 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests42) -}
+382c9859706e5b2da2d686c2e1cfc69c
   numTests42 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests43
+                   Test.HUnit.Base.@?=2
+                   Main.numTests43) -}
+578603798a590a5df25b53e0a7aa929f
+  numTests43 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Main.numTests44
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-b0e87692940e3115812745500af1a360
-  numTests43 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests44)) -}
-8d2b055c654e0b132d08d6696bdcf31e
-  numTests44 :: GHC.SrcLoc.SrcLoc
+a387278ad496c024ee52ce5541797e9b
+  numTests44 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests45)) -}
+b9466d2a27d04073844fd7b25c8c42f6
+  numTests45 :: GHC.SrcLoc.SrcLoc
   {- Unfolding: (GHC.SrcLoc.SrcLoc
                    Main.insertTests35
                    Main.insertTests34
                    Main.insertTests33
-                   Main.numTests45
+                   Main.numTests46
                    Main.numTests33
-                   Main.numTests45
+                   Main.numTests46
                    Main.numTests32) -}
-040476fb4e277cbe09d41fa961f463b3
-  numTests45 :: GHC.Types.Int
+6fc4f5e2a7d165a7b29f34f1abba7deb
+  numTests46 :: GHC.Types.Int
   {- HasNoCafRefs, Unfolding: (GHC.Types.I# 153) -}
-b1c9d54d7deb46de4b13d5166b808fe0
-  numTests46 :: [GHC.Types.Char]
+35be339ed14751614bd9c6dc3fdbfed8
+  numTests47 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "signum 0 {1 mark}"#) -}
-2b7acbbfb2d035b6a2751d97c8002bf3
-  numTests47 :: Test.Framework.Core.Test
+9fa1f5952d5a951feb04912a8da75aac
+  numTests48 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -4031,14 +4094,14 @@ b1c9d54d7deb46de4b13d5166b808fe0
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests58
-                   Main.numTests48
+                   Main.numTests62
+                   Main.numTests49
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-9a13595774d8633b8971d05388cbe6e9
-  numTests48 ::
+b10d0ad67a28cfdd629ee24ec0ad059d
+  numTests49 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -4046,91 +4109,100 @@ b1c9d54d7deb46de4b13d5166b808fe0
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests51
+                   Main.numTests55
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests49
-                   Ex02.$fNumExpr1
+                   Main.numTests53
+                   Main.numTests50
                    eta2) -}
-ffb81ba0c3475784c3e23ce33b65f589
-  numTests49 :: Ex02.Expr
-  {- HasNoCafRefs, Unfolding: (Ex02.Val Main.numTests50) -}
-9d57f8c7da8af023f4f4f71ffd754e89
+8199be9938d2a78be5232d0db52500b1
   numTests5 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests212
+                   Main.numTests224
                    Main.numTests6) -}
-88fa354091446b3f04124e0104cf0bfb
-  numTests50 :: GHC.Types.Double
+d19d3dc2d4791028b6a338d4122ea424
+  numTests50 :: Ex02.Expr
+  {- HasNoCafRefs, Unfolding: (Ex02.Sign Main.numTests51) -}
+719d95c6c7b12d55e8df3a293fb3a8e0
+  numTests51 :: Ex02.Expr
+  {- HasNoCafRefs, Unfolding: (Ex02.Val Main.numTests52) -}
+b8f740c2cb07b900204508e69d639256
+  numTests52 :: GHC.Types.Double
+  {- HasNoCafRefs, Unfolding: (GHC.Types.D# 42.0) -}
+b51e4088d9c4495682baed0086b03bf9
+  numTests53 :: Ex02.Expr
+  {- HasNoCafRefs, Unfolding: (Ex02.Val Main.numTests54) -}
+60c440e2f15b38e5829cf045572f47fb
+  numTests54 :: GHC.Types.Double
   {- HasNoCafRefs, Unfolding: (GHC.Types.D# 1.0) -}
-63312bbfc25a560b26b3c3ed8c933e7e
-  numTests51 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests52) -}
-a123f6edab962260435516ca224a0003
-  numTests52 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+407f8d506d6009d89328c58b82d413a2
+  numTests55 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests56) -}
+8eda8bf4209fe71b10d594e20d8b06cf
+  numTests56 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
                    Test.HUnit.Base.@?=2
-                   Main.numTests53) -}
-116ddfd5cffa6a5cbc9851878cb0af50
-  numTests53 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+                   Main.numTests57) -}
+f7eeb16c019c37d5531238bee83263a6
+  numTests57 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
   {- Unfolding: (GHC.Types.:
                    @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests54
+                   Main.numTests58
                    (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-b8fb3df1c52d1535f5753b15d1e2bed3
-  numTests54 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests55)) -}
-220384495848acfb5ca80c38dc09ead3
-  numTests55 :: GHC.SrcLoc.SrcLoc
+024c355ff8b1aeb5834f965475045727
+  numTests58 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests59)) -}
+d0d27bd1ae31192f9ad38d1b76ba0619
+  numTests59 :: GHC.SrcLoc.SrcLoc
   {- Unfolding: (GHC.SrcLoc.SrcLoc
                    Main.insertTests35
                    Main.insertTests34
                    Main.insertTests33
-                   Main.numTests57
-                   Main.numTests56
-                   Main.numTests57
-                   Main.insertTests143) -}
-26a469534881849d18728a811e509d9d
-  numTests56 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 20) -}
-1b5eddb8f372c9f2e65c60d60c1703a4
-  numTests57 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 151) -}
-0fbb8cb270bf963fd6de356a9a1e30ac
-  numTests58 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "signum 42 {1 mark}"#) -}
-2cffd4e1b4ede00f95a2aaf3b76942ff
-  numTests59 :: Test.Framework.Core.Test
-  {- Unfolding: (Test.Framework.Core.Test
-                   @ Test.Framework.Providers.HUnit.TestCaseRunning
-                   @ Test.Framework.Providers.HUnit.TestCaseResult
-                   @ Test.Framework.Providers.HUnit.TestCase
-                   Test.Framework.Providers.HUnit.$fTestlikeTestCaseRunningTestCaseResultTestCase
-                   Test.Framework.Providers.HUnit.testCase1
-                     `cast`
-                   (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
-                             <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests69
+                   Main.numTests61
                    Main.numTests60
-                     `cast`
-                   (Trans
-                        (Sym (GHC.Types.NTCo:IO[0] <()>_R))
-                        (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-815d5c66844d9d21f528ec68b7d2af2f
+                   Main.numTests61
+                   Main.insertTests143) -}
+efe9f842216cb8768eed5a8fdc31dc65
   numTests6 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests202
+                   Main.numTests214
                    Main.numTests7) -}
-b9a3daa9e4ce8bf6e14f664857ef8d38
-  numTests60 ::
+59973de68c2790f26334e8178f41eb28
+  numTests60 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 20) -}
+3103ef357fe9e2e4496d3b238b454baf
+  numTests61 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 151) -}
+8bc68864a0f55aed5542155acfccb319
+  numTests62 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "signum 42 {1 mark}"#) -}
+036c3a759d9a16d79ce73bfcb6d1aaff
+  numTests63 :: Test.Framework.Core.Test
+  {- Unfolding: (Test.Framework.Core.Test
+                   @ Test.Framework.Providers.HUnit.TestCaseRunning
+                   @ Test.Framework.Providers.HUnit.TestCaseResult
+                   @ Test.Framework.Providers.HUnit.TestCase
+                   Test.Framework.Providers.HUnit.$fTestlikeTestCaseRunningTestCaseResultTestCase
+                   Test.Framework.Providers.HUnit.testCase1
+                     `cast`
+                   (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
+                             <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
+                   Main.numTests75
+                   Main.numTests64
+                     `cast`
+                   (Trans
+                        (Sym (GHC.Types.NTCo:IO[0] <()>_R))
+                        (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
+a34f4b354eb20c0ec74a1a15fb1e5734
+  numTests64 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -4138,65 +4210,72 @@ b9a3daa9e4ce8bf6e14f664857ef8d38
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests63
+                   Main.numTests69
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests61
-                   Ex02.$fNumExpr1
+                   Main.numTests67
+                   Main.numTests65
                    eta2) -}
-1ebf708e8f5d481fc67da6514978c157
-  numTests61 :: Ex02.Expr
-  {- HasNoCafRefs, Unfolding: (Ex02.Val Main.numTests62) -}
-bac5f76ba97573198008839186700896
-  numTests62 :: GHC.Types.Double
+acafa47ba6e2754f9540d7be24f42caf
+  numTests65 :: Ex02.Expr
+  {- HasNoCafRefs, Unfolding: (Ex02.Sign Main.numTests66) -}
+2c9969eb7fc372cb28c92378c48a84b7
+  numTests66 :: Ex02.Expr
+  {- HasNoCafRefs,
+     Unfolding: (Ex02.Sub Ex02.$fNumExpr1 Main.numTests51) -}
+9033f469b20c2c5637ba39ed52a00762
+  numTests67 :: Ex02.Expr
+  {- HasNoCafRefs, Unfolding: (Ex02.Val Main.numTests68) -}
+23e9dc509a4b7ab53c42dec7cdb7c8e3
+  numTests68 :: GHC.Types.Double
   {- HasNoCafRefs, Unfolding: (GHC.Types.D# -1.0) -}
-fc9cf2212f05a5862c3d221aa00f1492
-  numTests63 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests64) -}
-171b255f11caf87b9d3576e64a1e7738
-  numTests64 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
-  {- Unfolding: (GHC.Types.:
-                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Test.HUnit.Base.@?=2
-                   Main.numTests65) -}
-94bc5a25b67b4c97e2a14ea638eae1d9
-  numTests65 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
-  {- Unfolding: (GHC.Types.:
-                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests66
-                   (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-6364025a8f47c7a241c83cec54ccd4dc
-  numTests66 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests67)) -}
-928c4745906916745ec891bd2d3f2264
-  numTests67 :: GHC.SrcLoc.SrcLoc
-  {- Unfolding: (GHC.SrcLoc.SrcLoc
-                   Main.insertTests35
-                   Main.insertTests34
-                   Main.insertTests33
-                   Main.numTests68
-                   Main.insertTests143
-                   Main.numTests68
-                   Main.insertTests142) -}
-7d6cee2b121f49bf54ed83e7d595f7d3
-  numTests68 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 149) -}
-d10f04ff10d27158ae5e7d6c2528d987
-  numTests69 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString#
-                   "signum (-42) {2 mark}"#) -}
-67e1253a217191662a6594ae883db87d
+117a4c909bdff59711219df9f94c6c6b
+  numTests69 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests70) -}
+35a108ef4ebe1541fb870b808e6a3998
   numTests7 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests193
+                   Main.numTests204
                    Main.numTests8) -}
-f2ef5ca7a735df688ceac6c703d0583f
-  numTests70 :: Test.Framework.Core.Test
+3da7a280f0f3ae97e7f846741f9a796f
+  numTests70 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Test.HUnit.Base.@?=2
+                   Main.numTests71) -}
+d3e55ec47db8fc4808aec3be3e18c20c
+  numTests71 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Main.numTests72
+                   (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
+d5dbb66667eb0c364fa0316861a19772
+  numTests72 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests73)) -}
+ffc47338a4ed6a5fab625358a8956dcf
+  numTests73 :: GHC.SrcLoc.SrcLoc
+  {- Unfolding: (GHC.SrcLoc.SrcLoc
+                   Main.insertTests35
+                   Main.insertTests34
+                   Main.insertTests33
+                   Main.numTests74
+                   Main.insertTests143
+                   Main.numTests74
+                   Main.insertTests142) -}
+7960678a3b2d0bddbc55f43deeeb4bb2
+  numTests74 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 149) -}
+80bb2d8d6b2c3d5c06f486ceaefb1a17
+  numTests75 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "signum (-42) {2 mark}"#) -}
+245f5d49af89de4d4f4a737a6a53a870
+  numTests76 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -4206,14 +4285,14 @@ f2ef5ca7a735df688ceac6c703d0583f
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests80
-                   Main.numTests71
+                   Main.numTests86
+                   Main.numTests77
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-4173f34786381c2327730e64ee12ada5
-  numTests71 ::
+e89cb48f4ace5b18779fb0afde09342e
+  numTests77 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -4221,64 +4300,64 @@ f2ef5ca7a735df688ceac6c703d0583f
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests73
+                   Main.numTests79
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests72
-                   Ex02.$fNumExpr2
-                   eta2) -}
-bc9ed9348f8a80021c2d2ca56d0bf1cf
-  numTests72 :: Ex02.Expr
-  {- Unfolding: (Ex02.Abs Main.v) -}
-e813ea53ad228667e2fc4393e90a9563
-  numTests73 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests74) -}
-df40766f1747bf2da98c0298b14b72da
-  numTests74 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
-  {- Unfolding: (GHC.Types.:
-                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Test.HUnit.Base.@?=2
-                   Main.numTests75) -}
-db299076e301648cd01712b9ea9c3467
-  numTests75 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
-  {- Unfolding: (GHC.Types.:
-                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests76
-                   (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-d43466696c1e9442b320331963f85772
-  numTests76 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests77)) -}
-70379b1e9377080f18d0c01b188124a2
-  numTests77 :: GHC.SrcLoc.SrcLoc
-  {- Unfolding: (GHC.SrcLoc.SrcLoc
-                   Main.insertTests35
-                   Main.insertTests34
-                   Main.insertTests33
-                   Main.numTests79
                    Main.numTests78
-                   Main.numTests79
-                   Main.numTests33) -}
-28963272cebf03ad04974b2e3be1996d
-  numTests78 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 16) -}
-fb50786f143ba3c205e7d486eca6b3a5
-  numTests79 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 146) -}
-d2fd8b5afa6bd3ce4b0b7db5878ea6ea
+                   Main.numTests78
+                   eta2) -}
+6cb18638ad1810d5362f1788ff4fe7be
+  numTests78 :: Ex02.Expr
+  {- Unfolding: (Ex02.Abs Main.v) -}
+05a7a4aef3d240ec7eabdcf20627ca01
+  numTests79 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests80) -}
+9b2fc54c82dea352e217fb5b74220000
   numTests8 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests183
+                   Main.numTests194
                    Main.numTests9) -}
-3030f9ea89b4fe1c1233432a17084919
-  numTests80 :: [GHC.Types.Char]
+68d9ee72146f62e61b2d23d67bc6fba3
+  numTests80 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Test.HUnit.Base.@?=2
+                   Main.numTests81) -}
+b5cc48da6985756663392e0cb20b48da
+  numTests81 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Main.numTests82
+                   (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
+89717b53a0c03ad1d7970fcc7ffbb98b
+  numTests82 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests83)) -}
+389a1087d4a53197aecc29edd529dc5d
+  numTests83 :: GHC.SrcLoc.SrcLoc
+  {- Unfolding: (GHC.SrcLoc.SrcLoc
+                   Main.insertTests35
+                   Main.insertTests34
+                   Main.insertTests33
+                   Main.numTests85
+                   Main.numTests84
+                   Main.numTests85
+                   Main.numTests33) -}
+98b2125978e0f2612183a2dd0c800211
+  numTests84 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 16) -}
+4e8184466d2bc031bf67f7fc115a4953
+  numTests85 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 146) -}
+44b80c7f6b26169b7fd6996d510d7d66
+  numTests86 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "abs v {2 marks}"#) -}
-09026b372c03bf0318506fde577da0f9
-  numTests81 :: Test.Framework.Core.Test
+e6b5a45d496dbc30e4e32c52f2531dff
+  numTests87 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -4288,14 +4367,14 @@ d2fd8b5afa6bd3ce4b0b7db5878ea6ea
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests89
-                   Main.numTests82
+                   Main.numTests96
+                   Main.numTests88
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-e3dad9f09f1974135588008a8ccfc22e
-  numTests82 ::
+0e587c6a4d6b7defc5901f162d096363
+  numTests88 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -4303,58 +4382,61 @@ e3dad9f09f1974135588008a8ccfc22e
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests83
+                   Main.numTests90
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests49
-                   Ex02.$fNumExpr2
+                   Main.numTests53
+                   Main.numTests89
                    eta2) -}
-6e0db8638f97fc653c9a22441dd59a55
-  numTests83 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests84) -}
-152531bfcdb57928727ec1ea1c22b473
-  numTests84 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
-  {- Unfolding: (GHC.Types.:
-                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Test.HUnit.Base.@?=2
-                   Main.numTests85) -}
-d970ffa4fa01ad0af2ffbe6800dec103
-  numTests85 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
-  {- Unfolding: (GHC.Types.:
-                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests86
-                   (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-ec9db942d02d20e1e84df75ac7494f87
-  numTests86 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests87)) -}
-dd0ee6431c3aeca2ccf97626678d4ec3
-  numTests87 :: GHC.SrcLoc.SrcLoc
-  {- Unfolding: (GHC.SrcLoc.SrcLoc
-                   Main.insertTests35
-                   Main.insertTests34
-                   Main.insertTests33
-                   Main.numTests88
-                   Main.numTests78
-                   Main.numTests88
-                   Main.numTests33) -}
-12df1d3e64c86bdd40d9e7ca731bc759
-  numTests88 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 144) -}
-8c48ec11e93f98109147160144ebe863
-  numTests89 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "abs 1 {2 mark}"#) -}
-747e08746a91c64767c81c1be96349cb
+5c4fbd4249b17c9af823f42644559ae4
+  numTests89 :: Ex02.Expr
+  {- HasNoCafRefs, Unfolding: (Ex02.Abs Main.numTests53) -}
+856099450e2ce6b4149168fc5bea8111
   numTests9 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
-                   Main.numTests173
+                   Main.numTests184
                    Main.numTests10) -}
-88716c049532bbc255c5caf2ed764bc3
-  numTests90 :: Test.Framework.Core.Test
+94e0980673be5ab8c2986bf77a7b46fd
+  numTests90 :: GHC.Stack.CallStack
+  {- Unfolding: (GHC.Stack.CallStack Main.numTests91) -}
+2713a446091e77b593643bb169d2da2c
+  numTests91 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Test.HUnit.Base.@?=2
+                   Main.numTests92) -}
+2d39fb067e7f8ff15d8b006bc65538f0
+  numTests92 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
+  {- Unfolding: (GHC.Types.:
+                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+                   Main.numTests93
+                   (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
+8353233bb370141c69460c64b15c9521
+  numTests93 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
+  {- Unfolding: ((Main.insertTests36, Main.numTests94)) -}
+deebacf86a7046c360abf28ea8f232a1
+  numTests94 :: GHC.SrcLoc.SrcLoc
+  {- Unfolding: (GHC.SrcLoc.SrcLoc
+                   Main.insertTests35
+                   Main.insertTests34
+                   Main.insertTests33
+                   Main.numTests95
+                   Main.numTests84
+                   Main.numTests95
+                   Main.numTests33) -}
+27ebf1d79444b3c6aabbeaf03880cddd
+  numTests95 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 144) -}
+de31c37a6cd4f3877934adde4098a054
+  numTests96 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "abs 1 {2 mark}"#) -}
+307ea1f6255b0479348fd35ed314251b
+  numTests97 :: Test.Framework.Core.Test
   {- Unfolding: (Test.Framework.Core.Test
                    @ Test.Framework.Providers.HUnit.TestCaseRunning
                    @ Test.Framework.Providers.HUnit.TestCaseResult
@@ -4364,14 +4446,14 @@ dd0ee6431c3aeca2ccf97626678d4ec3
                      `cast`
                    (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
                              <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
+                   Main.numTests107
                    Main.numTests98
-                   Main.numTests91
                      `cast`
                    (Trans
                         (Sym (GHC.Types.NTCo:IO[0] <()>_R))
                         (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-75b9c804070df168dcb11122b84d8b5c
-  numTests91 ::
+705b4d5ebac16c2e1ba79eb0f826de94
+  numTests98 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
   {- Arity: 1, Strictness: <L,U>,
@@ -4379,94 +4461,46 @@ dd0ee6431c3aeca2ccf97626678d4ec3
                              GHC.Prim.RealWorld[OneShot] ->
                  Test.HUnit.Base.@=?7
                    @ Ex02.Expr
-                   Main.numTests92
+                   Main.numTests101
                      `cast`
                    (Sym (GHC.IP.NTCo:IP[0] <"loc">_N <GHC.Stack.CallStack>_N))
                    Ex02.$fEqExpr
                    Ex02.$fShowExpr
                    (GHC.Types.[] @ GHC.Types.Char)
-                   Main.numTests49
-                   Ex02.$fNumExpr2
+                   Main.numTests53
+                   Main.numTests99
                    eta2) -}
-a4e143a39a83f75cd5fc6ea99d12450b
-  numTests92 :: GHC.Stack.CallStack
-  {- Unfolding: (GHC.Stack.CallStack Main.numTests93) -}
-d6ad2f9069f6c3cf5a91793cfd6fd5a5
-  numTests93 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
-  {- Unfolding: (GHC.Types.:
-                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Test.HUnit.Base.@?=2
-                   Main.numTests94) -}
-cb3a3d2c3cf4192df332e5ed790596aa
-  numTests94 :: [([GHC.Types.Char], GHC.SrcLoc.SrcLoc)]
-  {- Unfolding: (GHC.Types.:
-                   @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-                   Main.numTests95
-                   (GHC.Types.[] @ ([GHC.Types.Char], GHC.SrcLoc.SrcLoc))) -}
-53c790f122e405eb250e2378836cc44d
-  numTests95 :: ([GHC.Types.Char], GHC.SrcLoc.SrcLoc)
-  {- Unfolding: ((Main.insertTests36, Main.numTests96)) -}
-7f572bcba140e9635696f261de14bd8f
-  numTests96 :: GHC.SrcLoc.SrcLoc
-  {- Unfolding: (GHC.SrcLoc.SrcLoc
-                   Main.insertTests35
-                   Main.insertTests34
-                   Main.insertTests33
-                   Main.numTests97
-                   Main.numTests33
-                   Main.numTests97
-                   Main.numTests32) -}
-1c7964c70978c32e8a31c1edba5a6db9
-  numTests97 :: GHC.Types.Int
-  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 142) -}
-21f68141025599c8764b5cc66c114401
-  numTests98 :: [GHC.Types.Char]
-  {- Unfolding: (GHC.CString.unpackCString# "abs (-1) {2 mark}"#) -}
-021b8508194724a116137b07c3295c81
-  numTests99 :: Test.Framework.Core.Test
-  {- Unfolding: (Test.Framework.Core.Test
-                   @ Test.Framework.Providers.HUnit.TestCaseRunning
-                   @ Test.Framework.Providers.HUnit.TestCaseResult
-                   @ Test.Framework.Providers.HUnit.TestCase
-                   Test.Framework.Providers.HUnit.$fTestlikeTestCaseRunningTestCaseResultTestCase
-                   Test.Framework.Providers.HUnit.testCase1
-                     `cast`
-                   (Sym (Data.Typeable.Internal.NTCo:Typeable[0]
-                             <*>_N <Test.Framework.Providers.HUnit.TestCase>_N))
-                   Main.numTests108
-                   Main.numTests100
-                     `cast`
-                   (Trans
-                        (Sym (GHC.Types.NTCo:IO[0] <()>_R))
-                        (Sym (Test.Framework.Providers.HUnit.NTCo:TestCase[0])))) -}
-0e5296d8949a98e84ea273a79eefa707
+aef0c67646180b4b1c560db802dda801
+  numTests99 :: Ex02.Expr
+  {- HasNoCafRefs, Unfolding: (Ex02.Abs Main.numTests100) -}
+29aa2beabe2ea6f54595ec96ddf68317
   tests :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
                    Main.tests1
                    (GHC.Types.[] @ Test.Framework.Core.Test)) -}
-0455ed6f1c7cc199a3f311870d1edd3d
+2743639938e23c5a0b84ec9d9b9abd58
   tests1 :: Test.Framework.Core.Test
   {- Strictness: m2,
      Unfolding: (Test.Framework.Core.TestGroup
                    Main.tests5
                    Main.tests2) -}
-8cf71bae6d17960cb6673b64da250456
+061ae9a73253fb83d55d7b8e41217132
   tests2 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
                    Main.insertTests
                    Main.tests3) -}
-8bd1b224eff0112c99a0d434380d686e
+a2ba3ed4593be2ce8032405a55e5c3f6
   tests3 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
                    @ Test.Framework.Core.Test
                    Main.lookupTests
                    Main.tests4) -}
-5fdd536818f84cab50ad61e452a4e1bf
+012a2b13b6000db184e4713b01e97a75
   tests4 :: [Test.Framework.Core.Test]
   {- Strictness: m2,
      Unfolding: (GHC.Types.:
@@ -4479,19 +4513,19 @@ f2a23a3c48e0b925daccea5105e08b79
                    "\n\
                    \\n\
                    \Exercise 02 Tests (120 marks)\n"#) -}
-2b767261de742e48756e838f3c366aea
+152dc4cc2e4c1021cb43c7773973dfb4
   v :: Ex02.Expr
   {- Strictness: m2, Unfolding: (Ex02.Var Main.v1) -}
 78046533872a23b0c33bbb5017006a56
   v1 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "v"#) -}
-d66b010b33114078bdf4e04e65525b57
+b638d556c936dce29a28900ff931f2ff
   x :: Ex02.Expr
   {- Strictness: m2, Unfolding: (Ex02.Var Main.x1) -}
 a572f31bb34a16e2f75fe6dc4b2d2948
   x1 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString# "x"#) -}
-00f978a7b6fdbc6d1890e9790885a57b
+d9e27cfe4c17ff1c433f9e77d0b5bc44
   y :: Ex02.Expr
   {- Strictness: m2, Unfolding: (Ex02.Var Main.y1) -}
 54d5e3bd37b296854b60308e9062351b
