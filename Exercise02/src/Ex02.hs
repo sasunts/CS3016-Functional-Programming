@@ -78,7 +78,9 @@ instance Num Expr where
   e1 - e2 = case (e1,e2) of
             (Val e1, Val e2) -> Val(e1-e2)
             (_,_) -> Sub e1 e2
-  e1 * e2 = Mul e1 e2
+  e1 * e2 = case (e1,e2) of
+            (Val e1, Val e2) -> Val(e1*e2)
+            (_,_) -> Mul e1 e2
   negate e = Sub 0 e
   abs e = Abs e
   signum e = Sign e
