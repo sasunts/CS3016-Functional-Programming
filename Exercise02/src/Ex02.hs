@@ -81,7 +81,9 @@ instance Num Expr where
   e1 * e2 = case (e1,e2) of
             (Val e1, Val e2) -> Val(e1*e2)
             (_,_) -> Mul e1 e2
-  negate e = Sub 0 e
+  negate e = case (e) of
+             (Val e) -> Val(-e)
+             (_) -> Sub 0 e
   abs e = Abs e
   signum e = Sign e
   fromInteger i = (Val (fromIntegral i))
