@@ -1,4 +1,4 @@
-{- butrfeld Andrew Butterfield -}
+{- sasuntsv Vahe Sasunts -}
 module Ex02 where
 
 -- Datatypes -------------------------------------------------------------------
